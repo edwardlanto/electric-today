@@ -1,6 +1,6 @@
 <?php echo $this->extend('layouts/default'); ?>
 <?php echo $this->section('content'); ?>
-<div class="td-main-content-wrap td-main-page-wrap">
+
                 <div class="td-container">
                     <div class="vc_row wpb_row td-pb-row">
 <style scoped="">
@@ -1140,5 +1140,5 @@ jQuery(document).ready(function(){
 })
 </script></p></div></div></div></div></div><div class="vc_row wpb_row td-pb-row"><div class="wpb_column vc_column_container td-pb-span4"><div class="wpb_wrapper"></div></div></div>
                 </div>
-                            </div>
+         
 <?php echo $this->endSection(); ?>
