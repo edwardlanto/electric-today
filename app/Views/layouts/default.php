@@ -3,7 +3,8 @@
     <head>
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' />
+        <link rel = "stylesheet" type = "text/css" 
+            href = "<?php echo base_url(); ?>assets/custom.css">
         <link rel="alternate" type="application/rss+xml" title="Electricity Today T&amp;D Magazine &raquo; Feed" href="https://www.electricity-today.com/feed" />
         <link rel="alternate" type="application/rss+xml" title="Electricity Today T&amp;D Magazine &raquo; Comments Feed" href="https://www.electricity-today.com/comments/feed" />
         <script type="text/javascript">
@@ -952,7 +953,7 @@ tdBlocksArray.push(block_td_uid_24_6576ca1002b03);
   <!-- <input type="tel" name="tel" id="tel" class="lbfield" value=""><br />-->
   <a class="close-reveal-modal" style="text-decoration:none;">×</a>
 </div>
-<div class="td-main-content-wrap td-main-page-wrap">
+<div>
         <?php $this->renderSection('content'); ?>
             </div>
         <footer>

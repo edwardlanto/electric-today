@@ -13,23 +13,22 @@ class ElectricSubstationController extends BaseController
     }
 
     public function read($slug){
-        $post = new PostModel;
-        $post = $post->find($slug);
+        $post = $this->db->table('post')->where('post.slug', $slug)->join('author', 'post.author_id = author.id', 'LEFT')->select(['*'])->get()->getRow();
         if($post){
-
-            // Testing using db instance
             $tags = $this->db->table('tag')->select(['title', 'slug'])->get()->getResultArray();
             $categories = $this->db->table('category')->select(['title', 'slug'])->get()->getResultArray();
             $comments = new CommentModel;
-            $comment_count = $comments->where('post_id', $post['id'])->countAll();
+            $comments = $comments->where('post_id', $post->id)->get()->getResultArray();
             $data = array(
-                'title' => $post['title'],
-                'content' => $post['content'],
-                'image' => $post['image'],
-                'view_count' => $post['view_count'],
-                'comment_count' => $comment_count,
+                'title' => $post->title,
+                'content' => $post->content,
+                'image' => $post->image,
+                'view_count' => $post->view_count,
+                'comments' => $comments,
                 'tags' => $tags,
                 'categories' => $categories,
+                'author_name' => $post->author_name,
+                'author_slug' => $post->author_slug,
             );
         }else{
             throw PageNotFoundException::forPageNotFound('Oops count not find the post your looking for.');

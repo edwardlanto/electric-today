@@ -9,6 +9,7 @@
             <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                 <a title="" class="entry-crumb" itemprop="url" href="https://www.electricity-today.com/"><span itemprop="title">Home</span></a>
             </span>
+            <i class="td-icon-right td-bread-sep"></i>
             <?php 
                 foreach($categories as $c):
                     echo "<span itemscope='' itemtype='http://data-vocabulary.org/Breadcrumb'>
@@ -48,9 +49,9 @@
                             <h1 class="entry-title"><?= $title ?></h1>
 
                             <div class="td-module-meta-info">
-                                <div class="td-post-author-name">By <a href="https://www.electricity-today.com/author/www-dynamicratings-com">www.dynamicratings.com</a></div>
+                                <div class="td-post-author-name">By <a href=<?= (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/' . "author/" . $author_slug ?>><?= $author_name ?></a></div>
                                 <div class="td-post-comments">
-                                    <a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health#respond"><i class="td-icon-comments"></i><?= $comment_count ?></a>
+                                    <a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health#respond"><i class="td-icon-comments"></i><?= count($comments) ?></a>
                                 </div>
                                 <div class="td-post-views"><i class="td-icon-views"></i><span class="td-nr-views-5895"><?= $view_count ?></span></div>
                             </div>
@@ -174,8 +175,8 @@
                                             class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
                                             style="position: static; visibility: visible; width: 66px; height: 20px;"
                                             title="X Post Button"
-                                            src="https://platform.twitter.com/widgets/tweet_button.2f70fb173b9000da126c79afe2098f02.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fwww.electricity-today.com%2Felectrical-substation%2Fhigh-voltage-test-equipment%2Fcase-study-rapid-changes-in-bushing-health&amp;size=m&amp;text=Case%20Study%3A%20%20Rapid%20Changes%20in%20Bushing%20Health&amp;time=1702332452394&amp;type=share&amp;url=https%3A%2F%2Fwww.electricity-today.com%2Felectrical-substation%2Fhigh-voltage-test-equipment%2Fcase-study-rapid-changes-in-bushing-health"
-                                            data-url="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health"
+                                            src="https://platform.twitter.com/widgets/tweet_button.2f70fb173b9000da126c79afe2098f02.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fwww.electricity-today.com%2Felectrical-substation%2Fhigh-voltage-test-equipment%2Fcase-study-rapid-changes-in-bushing-health&amp;size=m&amp;text=Case%20Study%3A%20%20Rapid%20Changes%20in%20Bushing%20Health&amp;time=1702332452394&amp;type=share&amp;url=" . $uri 
+                                            data-url=<?= $uri ?>
                                         ></iframe>
                                         <script>
                                             !(function (d, s, id) {
@@ -223,7 +224,7 @@
                             </a>
                             <div class="desc">
                                 <div class="td-author-name vcard author">
-                                    <span class="fn"><a href="https://www.electricity-today.com/author/www-dynamicratings-com">www.dynamicratings.com</a></span>
+                                    <span class="fn"><a href=<?= (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/' . "author/" . $author_slug ?>><?= $author_name ?></a></span>
                                 </div>
                                 <div class="td-author-description"></div>
                                 <div class="td-author-social"></div>

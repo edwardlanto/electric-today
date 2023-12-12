@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'newspaper';
+    src: url('aassets/newspaper-webfont.eot');
+    src: url('aassets/newspaper-webfont.eot?#iefix') format('embedded-opentype'),
+        url('aassets/newspaper-webfont.woff2') format('woff2'),
+        url('aassets/newspaper-webfont.woff') format('woff'),
+        url('aassets/newspaper-webfont.ttf') format('truetype'),
+        url('aassets/newspaper-webfont.svg#newspaperregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
