@@ -3,8 +3,20 @@
     <head>
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel = "stylesheet" type = "text/css" 
-            href = "<?php echo base_url(); ?>assets/custom.css">
+        <style>
+            @font-face {
+    font-family: 'newspaper';
+    src: url('assets/newspaper-webfont.eot');
+    src: url('assets/newspaper-webfont.eot?#iefix') format('embedded-opentype'),
+        url('assets/newspaper-webfont.woff2') format('woff2'),
+        url('assets/newspaper-webfont.woff') format('woff'),
+        url('assets/newspaper-webfont.ttf') format('truetype'),
+        url('assets/newspaper-webfont.svg#newspaperregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+        </style>
         <link rel="alternate" type="application/rss+xml" title="Electricity Today T&amp;D Magazine &raquo; Feed" href="https://www.electricity-today.com/feed" />
         <link rel="alternate" type="application/rss+xml" title="Electricity Today T&amp;D Magazine &raquo; Comments Feed" href="https://www.electricity-today.com/comments/feed" />
         <script type="text/javascript">
@@ -975,6 +987,10 @@ jQuery('#BusyBox8').stop(true).animate({ 'margin-top': -850, 'opacity': '0' }, {
      }, 2000);
 </script>
   <style type="text/css">
+
+.td-header-menu-wrap{
+    transition: top 0.2s ease-in-out;
+}
   #BusyBox8
 {
       border-style: solid;
@@ -1229,6 +1245,29 @@ jQuery(document).ready(function() {
 
 	
 	
+</script>
+<script>
+var prevScrollpos = window.pageYOffset;
+
+/* Get the header element and it's position */
+var headerDiv = document.querySelector(".td-header-menu-wrap");
+var headerBottom = headerDiv.offsetTop + headerDiv.offsetHeight;
+
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+
+  /* if we're scrolling up, or we haven't passed the header,
+     show the header at the top */
+  if (prevScrollpos > currentScrollPos  || currentScrollPos < headerBottom){  
+      headerDiv.style.top = "0";
+  }
+  else{
+      /* otherwise we're scrolling down & have passed the header so hide it */
+      headerDiv.style.top = "-7.2rem";
+  } 
+
+  prevScrollpos = currentScrollPos;
+}
 </script>
 
 <script>var css = "#sfsi_plus_floater { margin-left:px; }",
