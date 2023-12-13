@@ -84,7 +84,9 @@ tdBlocksArray.push(block_td_uid_34_6576ce1a6e0d3);
             <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/overhead-td/why-calibrate-test-equipment" rel="bookmark" title="Why calibrate test equipment">Why calibrate test equipment</a></h3>
         </div>
 
-        </div><div class="td-next-prev-wrap"><a href="#" class="td_ajax-prev-pagex td-trending-now-nav-left" data-wrapper-id="td_uid_35_6576ce1a6f815" data-moving="left" data-control-start=""><i class="td-icon-menu-left"></i></a><a href="#" class="td_ajax-next-pagex td-trending-now-nav-right" data-wrapper-id="td_uid_35_6576ce1a6f815" data-moving="right" data-control-start=""><i class="td-icon-menu-right"></i></a></div></div></div><!--./row-fluid--></div></div> <!-- ./block --></div></div></div><div class="vc_row wpb_row td-pb-row"><div class="wpb_column vc_column_container td-pb-span8"><div class="wpb_wrapper"><script>var block_td_uid_36_6576ce1a7183a = new tdBlock();
+        </div><div class="td-next-prev-wrap"><a href="#" class="td_ajax-prev-pagex td-trending-now-nav-left" data-wrapper-id="td_uid_35_6576ce1a6f815" data-moving="left" data-control-start="">
+        <i class="fa-solid fa-angle-left"></i></a><a href="#" class="td_ajax-next-pagex td-trending-now-nav-right" data-wrapper-id="td_uid_35_6576ce1a6f815" data-moving="right" data-control-start="">
+        <i class="fa-solid fa-angle-right"></i></a></div></div></div><!--./row-fluid--></div></div> <!-- ./block --></div></div></div><div class="vc_row wpb_row td-pb-row"><div class="wpb_column vc_column_container td-pb-span8"><div class="wpb_wrapper"><script>var block_td_uid_36_6576ce1a7183a = new tdBlock();
 block_td_uid_36_6576ce1a7183a.id = "td_uid_36_6576ce1a7183a";
 block_td_uid_36_6576ce1a7183a.atts = '{"autoplay":"6","category_ids":"-185,-349,-350","limit":"6","custom_title":"","class":"td_uid_36_6576ce1a7183a_rand"}';
 block_td_uid_36_6576ce1a7183a.td_column_number = "2";
@@ -293,7 +295,9 @@ tdBlocksArray.push(block_td_uid_39_6576ce1a87806);
         </div>
 
         
-	</div> <!-- ./td-block-span6 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_39_6576ce1a87806" data-td_block_id="td_uid_39_6576ce1a87806"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#" class="td-ajax-next-page" id="next-page-td_uid_39_6576ce1a87806" data-td_block_id="td_uid_39_6576ce1a87806"><i class="td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block -->
+	</div> <!-- ./td-block-span6 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_39_6576ce1a87806" data-td_block_id="td_uid_39_6576ce1a87806">
+    <i class="fa-solid fa-angle-left"></i></a><a href="#" class="td-ajax-next-page" id="next-page-td_uid_39_6576ce1a87806" data-td_block_id="td_uid_39_6576ce1a87806">
+    <i class="fa-solid fa-angle-right"></i></a></div></div> <!-- ./block -->
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
 			<p><script></script></p>

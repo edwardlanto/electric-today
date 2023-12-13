@@ -51,9 +51,10 @@
                             <div class="td-module-meta-info">
                                 <div class="td-post-author-name">By <a href=<?= (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/' . "author/" . $author_slug ?>><?= $author_name ?></a></div>
                                 <div class="td-post-comments">
-                                    <a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health#respond"><i class="td-icon-comments"></i><?= count($comments) ?></a>
+                                    <a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health#respond">
+                                    <i class="fa-solid fa-comment"></i><?= count($comments) ?></a>
                                 </div>
-                                <div class="td-post-views"><i class="td-icon-views"></i><span class="td-nr-views-5895"><?= $view_count ?></span></div>
+                                <div class="td-post-views"><i class="fa-solid fa-eye"></i><span class="td-nr-views-5895"><?= $view_count ?></span></div>
                             </div>
                         </header>
                     </div>
@@ -65,14 +66,14 @@
                                 href=<?= "http://www.facebook.com/sharer.php?u=" . $uri ?>
                                 onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
                             >
-                                <i class="td-icon-facebook"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
                                 <div class="td-social-but-text">Share on Facebook</div>
                             </a>
                             <a
                                 class="td-social-sharing-buttons td-social-twitter"
                                 href=<?= "https://twitter.com/intent/tweet?text=" . urlencode($title) . "&amp;url=" . $uri ?>
                             >
-                                <i class="td-icon-twitter"></i>
+                            <i class="fa-brands fa-twitter"></i>
                                 <div class="td-social-but-text">Tweet on Twitter</div>
                             </a>
                             <a
@@ -80,14 +81,14 @@
                                 href=<?= "http://plus.google.com/share?url=" . $uri ?>
                                 onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
                             >
-                                <i class="td-icon-googleplus"></i>
+                            <i class="fa-brands fa-google-plus-g"></i>
                             </a>
                             <a
                                 class="td-social-sharing-buttons td-social-pinterest"
                                 href=<?= "http://pinterest.com/pin/create/button/?url=" . $uri ?>
                                 onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
                             >
-                                <i class="td-icon-pinterest"></i>
+                            <i class="fa-brands fa-pinterest-p"></i>
                             </a>
                             <a
                                 class="td-social-sharing-buttons td-social-whatsapp"
@@ -125,14 +126,14 @@
                                     href=<?= "http://www.facebook.com/sharer.php?u=" . $uri ?>
                                     onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
                                 >
-                                    <i class="td-icon-facebook"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
                                     <div class="td-social-but-text">Facebook</div>
                                 </a>
                                 <a
                                     class="td-social-sharing-buttons td-social-twitter"
                                     href=<?= "https://twitter.com/intent/tweet?text=" . urlencode($title) . "&amp;url=" . $uri ?>
                                 >
-                                    <i class="td-icon-twitter"></i>
+                                <i class="fa-brands fa-twitter"></i>
                                     <div class="td-social-but-text">Twitter</div>
                                 </a>
                                 <a
@@ -140,14 +141,14 @@
                                     href=<?= "http://plus.google.com/share?url=" . $uri ?>
                                     onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
                                 >
-                                    <i class="td-icon-googleplus"></i>
+                                <i class="fa-brands fa-google-plus-g"></i>
                                 </a>
                                 <a
                                     class="td-social-sharing-buttons td-social-pinterest"
                                     href=<?= "http://pinterest.com/pin/create/button/?url=" . $uri ?>
                                     onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
                                 >
-                                    <i class="td-icon-pinterest"></i>
+                                <i class="fa-brands fa-pinterest-p"></i>
                                 </a>
                                 <a
                                     class="td-social-sharing-buttons td-social-whatsapp"
