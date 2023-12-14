@@ -74,7 +74,6 @@
         .slider-next{
             right:0;
         }
-
         /**
             End Custom CSS
         */
@@ -1515,5 +1514,4 @@
         </script>
         <script src="https://kit.fontawesome.com/2fe1253b76.js" crossorigin="anonymous"></script>
         </body>
-
 </html>

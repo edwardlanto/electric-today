@@ -357,18 +357,33 @@
                         <!--./row-fluid-->
                     </div>
                     <div class="td-next-prev-wrap">
-                        <a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_34_6577881ce8fc9" data-td_block_id="td_uid_34_6577881ce8fc9"><i class="td-icon-font td-icon-menu-left"></i></a>
-                        <a href="#" class="td-ajax-next-page" id="next-page-td_uid_34_6577881ce8fc9" data-td_block_id="td_uid_34_6577881ce8fc9"><i class="td-icon-font td-icon-menu-right"></i></a>
+                        <a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_34_6577881ce8fc9" data-td_block_id="td_uid_34_6577881ce8fc9"><i class="fa-solid fa-angle-left"></i></a>
+                        <a href="#" class="td-ajax-next-page" id="next-page-td_uid_34_6577881ce8fc9" data-td_block_id="td_uid_34_6577881ce8fc9"><i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
-                <!-- ./block -->
-
-                <div class="comments" id="comments">
-                    <div class="td-comments-title-wrap">
-                        <h4 class="block-title"><span>NO COMMENTS</span></h4>
+                    <div id="comment-container" <?= count($comments) > 0 ? '' : 'hidden' ?> >
+                        <div class="td-comments-title-wrap">
+                            <h4 class="block-title"><span>COMMENTS</span></h4>
+                        </div>
+                        <?php foreach($comments as $c): ?>
+                            <div style="margin-bottom:15px;" class="author-box-wrap">
+                                <span><?= $c['content']?></span><br/>
+                                <small><?= $c['created_at'] ?></small>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
-                </div>
-                <!-- /.content -->
+                    <div id="no-comment-container">
+                    <div class="comments" <?= count($comments) == 0 ? '' : 'hidden' ?>>
+                        <div class="td-comments-title-wrap">
+                            <h4 class="block-title"><span>NO COMMENTS</span></h4>
+                        </div>
+                    </div>
+                    </div>
+                <form name="comment-form" data-post=<?= $post_id ?> id="comment-form" onsubmit="return false">
+                    <textarea required name="content" placeholder="Write your comment here, must be atleast 5 characters" minlength="5" pattern="[a-zA-Z0-9-]"></textarea>
+                    <input type="submit" value="Comment" /> 
+                </form>
+                <br />
             </div>
         </div>
         <?php echo $this->include('templates/sidebars/post_type_sidebar'); ?>
@@ -399,6 +414,52 @@
             if (document.getElementById("a_dig_mag_loc") && document.getElementById("a_dig_mag_loc").id != "") {
                 document.getElementById("a_dig_mag_loc").onclick();
             }
+        </script>
+        <script type="text/javascript">
+            // Comment Form
+            jQuery(document).ready(function() {
+
+                function sanitizeString(input) {
+                    const specialCharRegex = /[<>]/g;
+                    const sanitizedInput = input.replace(specialCharRegex, '');
+                    return sanitizedInput;
+                }
+
+                jQuery('#comment-form').on('submit', function(e) {
+                    e.preventDefault()
+                    const santizedContent = sanitizeString(jQuery('textarea[name="content"]').val());
+                    jQuery.ajax({
+                        type: 'POST',
+                        url: '/api/comment/create',
+                        dataType: "json",
+                        data: {
+                            'post': jQuery('#comment-form').attr('data-post'),
+                            'content':  santizedContent
+                        },
+                        success: function (res) {
+                            const currentDate = new Date();
+                            const year = currentDate.getFullYear();
+                            const month = ('0' + (currentDate.getMonth() + 1)).slice(-2);
+                            const day = ('0' + currentDate.getDate()).slice(-2);
+                            const hours = ('0' + currentDate.getHours()).slice(-2);
+                            const minutes = ('0' + currentDate.getMinutes()).slice(-2);
+                            const seconds = ('0' + currentDate.getSeconds()).slice(-2);
+                            const dateTimeString = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+                            jQuery('#comment-container').removeAttr('hidden', true)
+                            jQuery('#no-comment-container').attr('hidden', true)
+                            jQuery('#comment-container').append(`<div style="margin-bottom:15px;" class="author-box-wrap">
+                                <span>${santizedContent}</span><br>
+                                <small>${dateTimeString}</small>
+                            </div>`)
+                            jQuery('#comment-form')[0].reset();
+                        },
+                        fail: function(e) {
+                            alert(e.message)
+                        }
+                    });
+                })
+            })
+
         </script>
     </div>
     <!-- /.td-pb-row -->

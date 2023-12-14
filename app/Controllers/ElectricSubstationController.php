@@ -13,7 +13,7 @@ class ElectricSubstationController extends BaseController
     }
 
     public function read($slug){
-        $post = $this->db->table('post')->where('post.slug', $slug)->join('author', 'post.author_id = author.id', 'LEFT')->select(['*'])->get()->getRow();
+        $post = $this->db->table('post')->where('post.slug', $slug)->join('author', 'post.author_id = author.id', 'LEFT')->select('author.id as author_id, author_name, author_slug, post.*')->get()->getRow();
         if($post){
             $tags = $this->db->table('tag')->select(['title', 'slug'])->get()->getResultArray();
             $categories = $this->db->table('category')->select(['title', 'slug'])->get()->getResultArray();
@@ -21,6 +21,8 @@ class ElectricSubstationController extends BaseController
             $comments = $comments->where('post_id', $post->id)->get()->getResultArray();
             $data = array(
                 'title' => $post->title,
+                'post_id' => $post->id,
+                'author_id' => $post->author_id,
                 'content' => $post->content,
                 'image' => $post->image,
                 'view_count' => $post->view_count,
