@@ -12,7 +12,61 @@
         <style type="text/css">
 
         /**
-            Custom CSS
+            Start Custom CSS
+        */
+
+        .menu-main-nav-new-design-container .fa-caret-down{
+            margin-left:7px;
+        }
+
+        .td-header-wrap .fa-magnifying-glass{
+            color:#000;
+        }
+
+        .box-flex{
+            display:flex;
+        }
+
+        .box-flex-wrap{
+            flex-wrap: wrap;
+        }
+
+        .fa-solid {
+            font-family: "Font Awesome 6 Free" !important;
+        }
+
+        .box-align-center{
+            align-items:center;
+        }
+
+        .td-theme-slider:hover .slider-btn{
+            opacity:1
+        }
+
+        .slider-btn{
+            position: absolute;
+            top: 0;
+            padding: 20px;
+            position: absolute;
+            display: block;
+            height: 80px;
+            margin-top: -40px;
+            top: 50%;
+            font-size: 38px;
+            color: #fff;
+            opacity: 0;
+            -webkit-transition: opacity 0.4s;
+            -moz-transition: opacity 0.4s;
+            -o-transition: opacity 0.4s;
+            transition: opacity 0.4s;
+        }
+
+        .slider-next{
+            right:0;
+        }
+
+        /**
+            End Custom CSS
         */
 
         ul.sf-js-enabled > li > a > i.td-icon-menu-down:before, a.sf-with-ul i.td-icon-menu-down:before, .td-icon-menu-down:before{
@@ -701,56 +755,60 @@
                                                             <div class="td-mega-span">
                                                                 <div class="td_module_mega_menu td_mod_mega_menu">
                                                                     <div class="td-module-image">
-                                                                    <div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance" rel="bookmark" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_5-218x150.jpg" alt="magazine_may_june_2023_article_5" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"></a></div>
+                                                                    <div class="td-module-thumb"><a href="/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance" rel="bookmark" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance">
+                                                                    <img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_5-218x150.jpg" alt="magazine_may_june_2023_article_5" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"></a></div>
                                                                     </div>
                                                                     <div class="item-details">
-                                                                    <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance" rel="bookmark" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance">A Primer on the Codes and Standards Governing Battery Safety and…</a></h3>
+                                                                    <h3 class="entry-title td-module-title"><a href="/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance" rel="bookmark" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance">A Primer on the Codes and Standards Governing Battery Safety and…</a></h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="td-mega-span">
                                                                 <div class="td_module_mega_menu td_mod_mega_menu">
                                                                     <div class="td-module-image">
-                                                                    <div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/substation-focused-on-environmental-design-2" rel="bookmark" title="Substation Focused on Environmental Design"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_4-218x150.jpg" alt="magazine_may_june_2023_article_4" title="Substation Focused on Environmental Design"></a></div>
+                                                                    <div class="td-module-thumb"><a href="/electrical-substation/high-voltage-test-equipment/substation-focused-on-environmental-design-2" rel="bookmark" title="Substation Focused on Environmental Design"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_4-218x150.jpg" alt="magazine_may_june_2023_article_4" title="Substation Focused on Environmental Design"></a></div>
                                                                     </div>
                                                                     <div class="item-details">
-                                                                    <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/substation-focused-on-environmental-design-2" rel="bookmark" title="Substation Focused on Environmental Design">Substation Focused on Environmental Design</a></h3>
+                                                                    <h3 class="entry-title td-module-title"><a href="/electrical-substation/high-voltage-test-equipment/substation-focused-on-environmental-design-2" rel="bookmark" title="Substation Focused on Environmental Design">Substation Focused on Environmental Design</a></h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="td-mega-span">
                                                                 <div class="td_module_mega_menu td_mod_mega_menu">
                                                                     <div class="td-module-image">
-                                                                    <div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/the-fight-against-animal-caused-power-outages-3" rel="bookmark" title="The Fight Against Animal-Caused Power Outages"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_3-218x150.jpg" alt="magazine_may_june_2023_article_3" title="The Fight Against Animal-Caused Power Outages"></a></div>
+                                                                    <div class="td-module-thumb"><a href="/electrical-substation/high-voltage-test-equipment/the-fight-against-animal-caused-power-outages-3" rel="bookmark" title="The Fight Against Animal-Caused Power Outages"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_3-218x150.jpg" alt="magazine_may_june_2023_article_3" title="The Fight Against Animal-Caused Power Outages"></a></div>
                                                                     </div>
                                                                     <div class="item-details">
-                                                                    <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/the-fight-against-animal-caused-power-outages-3" rel="bookmark" title="The Fight Against Animal-Caused Power Outages">The Fight Against Animal-Caused Power Outages</a></h3>
+                                                                    <h3 class="entry-title td-module-title"><a href="/electrical-substation/high-voltage-test-equipment/the-fight-against-animal-caused-power-outages-3" rel="bookmark" title="The Fight Against Animal-Caused Power Outages">The Fight Against Animal-Caused Power Outages</a></h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="td-mega-span">
                                                                 <div class="td_module_mega_menu td_mod_mega_menu">
                                                                     <div class="td-module-image">
-                                                                    <div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/latest-power-outage-statistics-and-causes-tracker" rel="bookmark" title="Latest Power Outage Statistics and Causes Tracker"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_2-218x150.jpg" alt="magazine_may_june_2023_article_2" title="Latest Power Outage Statistics and Causes Tracker"></a></div>
+                                                                    <div class="td-module-thumb"><a href="/electrical-substation/high-voltage-test-equipment/latest-power-outage-statistics-and-causes-tracker" rel="bookmark" title="Latest Power Outage Statistics and Causes Tracker"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_2-218x150.jpg" alt="magazine_may_june_2023_article_2" title="Latest Power Outage Statistics and Causes Tracker"></a></div>
                                                                     </div>
                                                                     <div class="item-details">
-                                                                    <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/latest-power-outage-statistics-and-causes-tracker" rel="bookmark" title="Latest Power Outage Statistics and Causes Tracker">Latest Power Outage Statistics and Causes Tracker</a></h3>
+                                                                    <h3 class="entry-title td-module-title"><a href="/electrical-substation/high-voltage-test-equipment/latest-power-outage-statistics-and-causes-tracker" rel="bookmark" title="Latest Power Outage Statistics and Causes Tracker">Latest Power Outage Statistics and Causes Tracker</a></h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="td-mega-span">
                                                                 <div class="td_module_mega_menu td_mod_mega_menu">
                                                                     <div class="td-module-image">
-                                                                    <div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health" rel="bookmark" title="Case Study:  Rapid Changes in Bushing Health"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_1-218x150.jpg" alt="magazine_may_june_2023_article_1" title="Case Study:  Rapid Changes in Bushing Health"></a></div>
+                                                                    <div class="td-module-thumb"><a href="/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health" rel="bookmark" title="Case Study:  Rapid Changes in Bushing Health"><img width="218" height="150" class="entry-thumb" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_1-218x150.jpg" alt="magazine_may_june_2023_article_1" title="Case Study:  Rapid Changes in Bushing Health"></a></div>
                                                                     </div>
                                                                     <div class="item-details">
-                                                                    <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health" rel="bookmark" title="Case Study:  Rapid Changes in Bushing Health">Case Study:  Rapid Changes in Bushing Health</a></h3>
+                                                                    <h3 class="entry-title td-module-title"><a href="/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health" rel="bookmark" title="Case Study:  Rapid Changes in Bushing Health">Case Study:  Rapid Changes in Bushing Health</a></h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         </div>
-                                                        <div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_1_6576ca0fe07fe" data-td_block_id="td_uid_1_6576ca0fe07fe"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#" class="td-ajax-next-page" id="next-page-td_uid_1_6576ca0fe07fe" data-td_block_id="td_uid_1_6576ca0fe07fe"><i class="td-icon-font td-icon-menu-right"></i></a></div>
+                                                        <div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_1_6576ca0fe07fe" data-td_block_id="td_uid_1_6576ca0fe07fe"
+                                                        ><i class="fa-solid fa-angle-left"></i>
+                                                    </a><a href="#" class="td-ajax-next-page" id="next-page-td_uid_1_6576ca0fe07fe" data-td_block_id="td_uid_1_6576ca0fe07fe">
+                                                    <i class="fa-solid fa-angle-right"></i></a></div>
                                                         <div class="clearfix"></div>
                                                     </div>
                                                     <!-- ./block1 -->

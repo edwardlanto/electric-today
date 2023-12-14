@@ -9,7 +9,7 @@
             <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                 <a title="" class="entry-crumb" itemprop="url" href="https://www.electricity-today.com/"><span itemprop="title">Home</span></a>
             </span>
-            <i class="td-icon-right td-bread-sep"></i>
+            <i class="fa-solid fa-angle-right"></i>
             <?php 
                 foreach($categories as $c):
                     echo "<span itemscope='' itemtype='http://data-vocabulary.org/Breadcrumb'>
@@ -17,7 +17,7 @@
                                     <span itemprop='title'>" . $c['title'] . "</span>
                                 </a>
                             </span>
-                            <i class='td-icon-right td-bread-sep'></i>";
+                            <i class='fa-solid fa-angle-right'></i>";
                 endforeach
             ?>
 
@@ -51,10 +51,10 @@
                             <div class="td-module-meta-info">
                                 <div class="td-post-author-name">By <a href=<?= (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/' . "author/" . $author_slug ?>><?= $author_name ?></a></div>
                                 <div class="td-post-comments">
-                                    <a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health#respond">
-                                    <i class="fa-solid fa-comment"></i><?= count($comments) ?></a>
+                                    <a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health#respond" class="box-flex box-items-center">
+                                    <i class="fa-solid fa-comment" style="margin-right:5px"></i><?= count($comments) ?></a>
                                 </div>
-                                <div class="td-post-views"><i class="fa-solid fa-eye"></i><span class="td-nr-views-5895"><?= $view_count ?></span></div>
+                                <div class="td-post-views box-flex box-align-center"><i class="fa-solid fa-eye" style="margin-right:5px"></i><span class="td-nr-views-5895"><?= $view_count ?></span></div>
                             </div>
                         </header>
                     </div>

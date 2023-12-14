@@ -14,16 +14,20 @@ class Home extends BaseController
         $td_automation = $this->db->query("SELECT
         post.title,
         post.image,
+        post.slug,
         post.excerpt,
         (
           SELECT COUNT(*)
           FROM comment
           WHERE comment.post_id = post.id
-        ) AS comment_total
+        ) AS comment_count,
+        (
+          SELECT author_name
+          FROM author
+          WHERE post.author_id = author.id
+        ) AS author_name
       FROM post
-      LEFT JOIN author ON post.author_id = author.id
-      WHERE post.is_menu = 0 ORDER BY created_at")->getResultArray();
-
+      WHERE post.is_menu != 1 ORDER BY created_at")->getResultArray();
       $data = array(
         'td_automation' => $td_automation
       );

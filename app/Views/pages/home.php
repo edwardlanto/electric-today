@@ -1,63 +1,156 @@
 <?php echo $this->extend('layouts/default'); ?>
 <?php echo $this->section('content'); ?>
-    <div class="td-container">
-        <div class="vc_row wpb_row td-pb-row">
-            <style scoped="">
-            .td_uid_34_6576ce1a6e0d3_rand .td_module_wrap:hover .entry-title a,
-                        .td_uid_34_6576ce1a6e0d3_rand a.td-pulldown-filter-link:hover,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-subcat-item a:hover,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-subcat-item .td-cur-simple-item,
-                        .td_uid_34_6576ce1a6e0d3_rand .td_quote_on_blocks {
-                            color: #1e73be;
-                        }
+<div class="td-container">
+    <div class="vc_row wpb_row td-pb-row">
+    <style scoped="">
+    .td_uid_34_6576ce1a6e0d3_rand .td_module_wrap:hover .entry-title a,
+            .td_uid_34_6576ce1a6e0d3_rand a.td-pulldown-filter-link:hover,
+            .td_uid_34_6576ce1a6e0d3_rand .td-subcat-item a:hover,
+            .td_uid_34_6576ce1a6e0d3_rand .td-subcat-item .td-cur-simple-item,
+            .td_uid_34_6576ce1a6e0d3_rand .td_quote_on_blocks {
+                color: #1e73be;
+            }
 
-                        .td_uid_34_6576ce1a6e0d3_rand .td-next-prev-wrap a:hover,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-load-more-wrap a:hover {
-                            background-color: #1e73be;
-                            border-color: #1e73be;
-                        }
-                        .td_uid_34_6576ce1a6e0d3_rand .td-subcat-dropdown:hover .td-subcat-more,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-post-category:hover {
-                            background-color: #1e73be;
-                        }
+            .td_uid_34_6576ce1a6e0d3_rand .td-next-prev-wrap a:hover,
+            .td_uid_34_6576ce1a6e0d3_rand .td-load-more-wrap a:hover {
+                background-color: #1e73be;
+                border-color: #1e73be;
+            }
+            .td_uid_34_6576ce1a6e0d3_rand .td-subcat-dropdown:hover .td-subcat-more,
+            .td_uid_34_6576ce1a6e0d3_rand .td-post-category:hover {
+                background-color: #1e73be;
+            }
 
-                        .td_uid_34_6576ce1a6e0d3_rand .block-title span,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-trending-now-title,
-                        .td_uid_34_6576ce1a6e0d3_rand .block-title a,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-read-more a,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-weather-information:before,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-weather-week:before {
-                            background-color: #1e73be;
-                        }
+            .td_uid_34_6576ce1a6e0d3_rand .block-title span,
+            .td_uid_34_6576ce1a6e0d3_rand .td-trending-now-title,
+            .td_uid_34_6576ce1a6e0d3_rand .block-title a,
+            .td_uid_34_6576ce1a6e0d3_rand .td-read-more a,
+            .td_uid_34_6576ce1a6e0d3_rand .td-weather-information:before,
+            .td_uid_34_6576ce1a6e0d3_rand .td-weather-week:before {
+                background-color: #1e73be;
+            }
 
-                        .td_uid_34_6576ce1a6e0d3_rand .block-title {
-                            border-color: #1e73be;
-                        }
+            .td_uid_34_6576ce1a6e0d3_rand .block-title {
+                border-color: #1e73be;
+            }
 
-                        
-                        .td_uid_34_6576ce1a6e0d3_rand .block-title span,
-                        .td_uid_34_6576ce1a6e0d3_rand .td-trending-now-title,
-                        .td_uid_34_6576ce1a6e0d3_rand .block-title a {
-                            color: #ffffff;
-                        }
-            </style>
-<div class="wpb_column vc_column_container td-pb-span12">
-    <div class="wpb_wrapper">
-        <script>var block_td_uid_34_6576ce1a6e0d3 = new tdBlock();
-        block_td_uid_34_6576ce1a6e0d3.id = "td_uid_34_6576ce1a6e0d3";
-        block_td_uid_34_6576ce1a6e0d3.atts = '{"header_text_color":"#ffffff","header_color":"#1e73be","limit":5,"class":"td_uid_34_6576ce1a6e0d3_rand"}';
-        block_td_uid_34_6576ce1a6e0d3.td_column_number = "3";
-        block_td_uid_34_6576ce1a6e0d3.block_type = "td_block_trending_now";
-        block_td_uid_34_6576ce1a6e0d3.post_count = "5";
-        block_td_uid_34_6576ce1a6e0d3.found_posts = "507";
-        block_td_uid_34_6576ce1a6e0d3.header_color = "#1e73be";
-        block_td_uid_34_6576ce1a6e0d3.ajax_pagination_infinite_stop = "";
-        block_td_uid_34_6576ce1a6e0d3.max_num_pages = "102";
-        tdBlocksArray.push(block_td_uid_34_6576ce1a6e0d3);
-        </script>
-        <div class="td_block_wrap td_block_trending_now td_uid_34_6576ce1a6e0d3_rand td-pb-border-top">
-                <div id="td_uid_34_6576ce1a6e0d3" class="td_block_inner">
-                    <div class="td-block-row"><div class="td-trending-now-wrapper" id="td_uid_35_6576ce1a6f815" data-start=""><div class="td-trending-now-title">Trending Now</div><div class="td-trending-now-display-area">
+            
+            .td_uid_34_6576ce1a6e0d3_rand .block-title span,
+            .td_uid_34_6576ce1a6e0d3_rand .td-trending-now-title,
+            .td_uid_34_6576ce1a6e0d3_rand .block-title a {
+                color: #ffffff;
+            }
+    </style>
+<style scoped="">
+.td_uid_96_6576ce1aa9296_rand .td_module_wrap:hover .entry-title a,
+            .td_uid_96_6576ce1aa9296_rand a.td-pulldown-filter-link:hover,
+            .td_uid_96_6576ce1aa9296_rand .td-subcat-item a:hover,
+            .td_uid_96_6576ce1aa9296_rand .td-subcat-item .td-cur-simple-item,
+            .td_uid_96_6576ce1aa9296_rand .td_quote_on_blocks {
+                color: #8224e3;
+            }
+
+            .td_uid_96_6576ce1aa9296_rand .td-next-prev-wrap a:hover,
+            .td_uid_96_6576ce1aa9296_rand .td-load-more-wrap a:hover {
+                background-color: #8224e3;
+                border-color: #8224e3;
+            }
+            .td_uid_96_6576ce1aa9296_rand .td-subcat-dropdown:hover .td-subcat-more,
+            .td_uid_96_6576ce1aa9296_rand .td-post-category:hover {
+                background-color: #8224e3;
+            }
+
+            .td_uid_96_6576ce1aa9296_rand .block-title span,
+            .td_uid_96_6576ce1aa9296_rand .td-trending-now-title,
+            .td_uid_96_6576ce1aa9296_rand .block-title a,
+            .td_uid_96_6576ce1aa9296_rand .td-read-more a,
+            .td_uid_96_6576ce1aa9296_rand .td-weather-information:before,
+            .td_uid_96_6576ce1aa9296_rand .td-weather-week:before {
+                background-color: #8224e3;
+            }
+
+            .td_uid_96_6576ce1aa9296_rand .block-title {
+                border-color: #8224e3;
+            }
+</style>
+<style scoped="">
+.td_uid_97_6576ce1aadb96_rand .td_module_wrap:hover .entry-title a,
+            .td_uid_97_6576ce1aadb96_rand a.td-pulldown-filter-link:hover,
+            .td_uid_97_6576ce1aadb96_rand .td-subcat-item a:hover,
+            .td_uid_97_6576ce1aadb96_rand .td-subcat-item .td-cur-simple-item,
+            .td_uid_97_6576ce1aadb96_rand .td_quote_on_blocks {
+                color: #1e73be;
+            }
+
+            .td_uid_97_6576ce1aadb96_rand .td-next-prev-wrap a:hover,
+            .td_uid_97_6576ce1aadb96_rand .td-load-more-wrap a:hover {
+                background-color: #1e73be;
+                border-color: #1e73be;
+            }
+            .td_uid_97_6576ce1aadb96_rand .td-subcat-dropdown:hover .td-subcat-more,
+            .td_uid_97_6576ce1aadb96_rand .td-post-category:hover {
+                background-color: #1e73be;
+            }
+
+            .td_uid_97_6576ce1aadb96_rand .block-title span,
+            .td_uid_97_6576ce1aadb96_rand .td-trending-now-title,
+            .td_uid_97_6576ce1aadb96_rand .block-title a,
+            .td_uid_97_6576ce1aadb96_rand .td-read-more a,
+            .td_uid_97_6576ce1aadb96_rand .td-weather-information:before,
+            .td_uid_97_6576ce1aadb96_rand .td-weather-week:before {
+                background-color: #1e73be;
+            }
+
+            .td_uid_97_6576ce1aadb96_rand .block-title {
+                border-color: #1e73be;
+            }
+</style>
+<style scoped="">
+.td_uid_98_6576ce1aae5bb_rand .td_module_wrap:hover .entry-title a,
+            .td_uid_98_6576ce1aae5bb_rand a.td-pulldown-filter-link:hover,
+            .td_uid_98_6576ce1aae5bb_rand .td-subcat-item a:hover,
+            .td_uid_98_6576ce1aae5bb_rand .td-subcat-item .td-cur-simple-item,
+            .td_uid_98_6576ce1aae5bb_rand .td_quote_on_blocks {
+                color: #dd3333;
+            }
+
+            .td_uid_98_6576ce1aae5bb_rand .td-next-prev-wrap a:hover,
+            .td_uid_98_6576ce1aae5bb_rand .td-load-more-wrap a:hover {
+                background-color: #dd3333;
+                border-color: #dd3333;
+            }
+            .td_uid_98_6576ce1aae5bb_rand .td-subcat-dropdown:hover .td-subcat-more,
+            .td_uid_98_6576ce1aae5bb_rand .td-post-category:hover {
+                background-color: #dd3333;
+            }
+
+            .td_uid_98_6576ce1aae5bb_rand .block-title span,
+            .td_uid_98_6576ce1aae5bb_rand .td-trending-now-title,
+            .td_uid_98_6576ce1aae5bb_rand .block-title a,
+            .td_uid_98_6576ce1aae5bb_rand .td-read-more a,
+            .td_uid_98_6576ce1aae5bb_rand .td-weather-information:before,
+            .td_uid_98_6576ce1aae5bb_rand .td-weather-week:before {
+                background-color: #dd3333;
+            }
+
+            .td_uid_98_6576ce1aae5bb_rand .block-title {
+                border-color: #dd3333;
+            }
+</style>
+<div class="wpb_column vc_column_container td-pb-span12"><div class="wpb_wrapper"><script>var block_td_uid_34_6576ce1a6e0d3 = new tdBlock();
+block_td_uid_34_6576ce1a6e0d3.id = "td_uid_34_6576ce1a6e0d3";
+block_td_uid_34_6576ce1a6e0d3.atts = '{"header_text_color":"#ffffff","header_color":"#1e73be","limit":5,"class":"td_uid_34_6576ce1a6e0d3_rand"}';
+block_td_uid_34_6576ce1a6e0d3.td_column_number = "3";
+block_td_uid_34_6576ce1a6e0d3.block_type = "td_block_trending_now";
+block_td_uid_34_6576ce1a6e0d3.post_count = "5";
+block_td_uid_34_6576ce1a6e0d3.found_posts = "507";
+block_td_uid_34_6576ce1a6e0d3.header_color = "#1e73be";
+block_td_uid_34_6576ce1a6e0d3.ajax_pagination_infinite_stop = "";
+block_td_uid_34_6576ce1a6e0d3.max_num_pages = "102";
+tdBlocksArray.push(block_td_uid_34_6576ce1a6e0d3);
+</script><div class="td_block_wrap td_block_trending_now td_uid_34_6576ce1a6e0d3_rand td-pb-border-top"><div id="td_uid_34_6576ce1a6e0d3" class="td_block_inner">
+
+	<div class="td-block-row"><div class="td-trending-now-wrapper" id="td_uid_35_6576ce1a6f815" data-start=""><div class="td-trending-now-title">Trending Now</div><div class="td-trending-now-display-area">
         <div class="td_module_trending_now td-trending-now-post-0 td-trending-now-post" style="opacity: 0; z-index: 0;">
 
             <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/news/line-leakage-testing-is-it-right-for-your-application" rel="bookmark" title="Line Leakage Testing: Is It Right For Your Application">Line Leakage Testing: Is It Right For Your Application</a></h3>
@@ -100,7 +193,21 @@ block_td_uid_36_6576ce1a7183a.header_color = "";
 block_td_uid_36_6576ce1a7183a.ajax_pagination_infinite_stop = "";
 block_td_uid_36_6576ce1a7183a.max_num_pages = "81";
 tdBlocksArray.push(block_td_uid_36_6576ce1a7183a);
-</script><div class="td_block_wrap td_block_slide td_uid_36_6576ce1a7183a_rand td-pb-border-top"><div id="td_uid_36_6576ce1a7183a" class="td_block_inner"><div id="td_uid_37_6576ce1a7392b" class="td-theme-slider iosSlider-col-2 td_mod_wrap" style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; perspective: 1000px; backface-visibility: hidden; width: 696px; height: 385px;"><div class="td-slider " style="position: relative; cursor: -webkit-grab; perspective: 0px; backface-visibility: hidden; width: 4176px; transform: matrix(1, 0, 0, 1, -7656, 0);"><div id="td_uid_37_6576ce1a7392b_item_0" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 8352, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring" rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring"><img width="420" height="280" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/1-24.jpg" alt="" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring" rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring">Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/chris-rutledge">Chris Rutledge</a></div><div class="td-post-views"><i class="td-icon-views"></i>2155</div><div class="td-post-comments"><i class="td-icon-comments"></i><a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_1" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 4872, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component" rel="bookmark" title="The Distribution Transformer – Critical Power System Component"><img width="420" height="315" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/5-17.jpg" alt="" title="The Distribution Transformer – Critical Power System Component"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component" rel="bookmark" title="The Distribution Transformer – Critical Power System Component">The Distribution Transformer – Critical Power System Component</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/r-w-hurst">R.W. Hurst</a></div><div class="td-post-views"><i class="td-icon-views"></i>2342</div><div class="td-post-comments"><i class="td-icon-comments"></i><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_2" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 5568, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained"><img width="420" height="280" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/4-19.jpg" alt="" title="Grounding Transformers Explained"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained">Grounding Transformers Explained</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/r-w-hurst">R.W. Hurst</a></div><div class="td-post-views"><i class="td-icon-views"></i>2459</div><div class="td-post-comments"><i class="td-icon-comments"></i><a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_3" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 6264, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/uncategorized/the-importance-of-risk-assessment-and-the-role-of-reliability-based-dga" rel="bookmark" title="The importance of risk assessment and the role of Reliability-based DGA"><img width="420" height="300" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/3-23.jpg" alt="" title="The importance of risk assessment and the role of Reliability-based DGA"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/uncategorized/the-importance-of-risk-assessment-and-the-role-of-reliability-based-dga" rel="bookmark" title="The importance of risk assessment and the role of Reliability-based DGA">The importance of risk assessment and the role of Reliability-based DGA</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/chuck-hoeppner">Chuck Hoeppner</a></div><div class="td-post-views"><i class="td-icon-views"></i>1839</div><div class="td-post-comments"><i class="td-icon-comments"></i><a href="https://www.electricity-today.com/uncategorized/the-importance-of-risk-assessment-and-the-role-of-reliability-based-dga#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_4" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 6960, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-transformers/distribution-transformer-dga-the-future-of-monitoring-distribution-systems" rel="bookmark" title="Distribution Transformer DGA – The Future of Monitoring Distribution Systems"><img width="420" height="296" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/2-22.jpg" alt="" title="Distribution Transformer DGA – The Future of Monitoring Distribution Systems"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-transformers/distribution-transformer-dga-the-future-of-monitoring-distribution-systems" rel="bookmark" title="Distribution Transformer DGA – The Future of Monitoring Distribution Systems">Distribution Transformer DGA – The Future of Monitoring Distribution Systems</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/leon-white">Leon White</a></div><div class="td-post-views"><i class="td-icon-views"></i>1959</div><div class="td-post-comments"><i class="td-icon-comments"></i><a href="https://www.electricity-today.com/electrical-transformers/distribution-transformer-dga-the-future-of-monitoring-distribution-systems#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_5" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 7656, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/lineman-safety/grounding-protection/grounding-system-testing-simplified-fall-of-potential-and-step-and-touch-voltage-testing" rel="bookmark" title="Grounding System Testing:  Simplified Fall-Of-Potential And Step-And-Touch Voltage Testing"><img width="696" height="308" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/1-23-e1679528835630-696x308.jpg" alt="" title="Grounding System Testing:  Simplified Fall-Of-Potential And Step-And-Touch Voltage Testing"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/lineman-safety/grounding-protection/grounding-system-testing-simplified-fall-of-potential-and-step-and-touch-voltage-testing" rel="bookmark" title="Grounding System Testing:  Simplified Fall-Of-Potential And Step-And-Touch Voltage Testing">Grounding System Testing:  Simplified Fall-Of-Potential And Step-And-Touch Voltage Testing</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/logan-merrill">Logan Merrill</a></div><div class="td-post-views"><i class="td-icon-views"></i>3025</div><div class="td-post-comments"><i class="td-icon-comments"></i><a href="https://www.electricity-today.com/lineman-safety/grounding-protection/grounding-system-testing-simplified-fall-of-potential-and-step-and-touch-voltage-testing#respond">0</a></div></div></div></div></div><i class="td-icon-left prevButton" style="cursor: pointer;"></i><i class="td-icon-right nextButton" style="cursor: pointer;"></i><i class="i7286" style="position: absolute; right: 10px; bottom: 10px; z-index: 1000; font-style: normal; background: rgb(255, 255, 255); opacity: 0.2;"></i><i class="i7286" style="position: absolute; inset: 10px auto auto 10px; z-index: 1000; font-style: normal; background: rgb(255, 255, 255); opacity: 0.2;"></i></div></div></div> <!-- ./block1 --></div></div>
+</script>
+
+<div class="td_block_wrap td_block_slide td_uid_36_6576ce1a7183a_rand td-pb-border-top"><div id="td_uid_36_6576ce1a7183a" 
+class="td_block_inner"><div id="td_uid_37_6576ce1a7392b" class="td-theme-slider iosSlider-col-2 td_mod_wrap" 
+style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; perspective: 1000px; backface-visibility: 
+hidden; width: 696px; height: 385px;"><div class="td-slider " style="position: relative; cursor: -webkit-grab; perspective: 
+0px; backface-visibility: hidden; width: 4176px; transform: matrix(1, 0, 0, 1, -7656, 0);">
+<div id="td_uid_37_6576ce1a7392b_item_0" class="td_module_slide td-animation-stack td-image-gradient" 
+style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 8352, 0);">
+<div class="td-module-thumb">
+    <a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring" rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring"><img width="420" height="280" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/1-24.jpg" alt="" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring" rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring">Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/chris-rutledge">Chris Rutledge</a></div><div class="td-post-views"><i class="fa-solid fa-eye"></i>2155</div><div class="td-post-comments"><i class="fa-solid fa-comments"></i><a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_1" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 4872, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component" rel="bookmark" title="The Distribution Transformer – Critical Power System Component"><img width="420" height="315" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/5-17.jpg" alt="" title="The Distribution Transformer – Critical Power System Component"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component" rel="bookmark" title="The Distribution Transformer – Critical Power System Component">The Distribution Transformer – Critical Power System Component</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/r-w-hurst">R.W. Hurst</a></div><div class="td-post-views"><i class="fa-solid fa-eye"></i>2342</div><div class="td-post-comments"><i class="fa-solid fa-comments"></i><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_2" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 5568, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained"><img width="420" height="280" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/4-19.jpg" alt="" title="Grounding Transformers Explained"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained">Grounding Transformers Explained</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/r-w-hurst">R.W. Hurst</a></div><div class="td-post-views"><i class="fa-solid fa-eye"></i>2459</div><div class="td-post-comments"><i class="fa-solid fa-comments"></i><a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_3" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 6264, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/uncategorized/the-importance-of-risk-assessment-and-the-role-of-reliability-based-dga" rel="bookmark" title="The importance of risk assessment and the role of Reliability-based DGA"><img width="420" height="300" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/3-23.jpg" alt="" title="The importance of risk assessment and the role of Reliability-based DGA"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/uncategorized/the-importance-of-risk-assessment-and-the-role-of-reliability-based-dga" rel="bookmark" title="The importance of risk assessment and the role of Reliability-based DGA">The importance of risk assessment and the role of Reliability-based DGA</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/chuck-hoeppner">Chuck Hoeppner</a></div><div class="td-post-views"><i class="fa-solid fa-eye"></i>1839</div><div class="td-post-comments"><i class="fa-solid fa-comments"></i><a href="https://www.electricity-today.com/uncategorized/the-importance-of-risk-assessment-and-the-role-of-reliability-based-dga#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_4" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 6960, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-transformers/distribution-transformer-dga-the-future-of-monitoring-distribution-systems" rel="bookmark" title="Distribution Transformer DGA – The Future of Monitoring Distribution Systems"><img width="420" height="296" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/2-22.jpg" alt="" title="Distribution Transformer DGA – The Future of Monitoring Distribution Systems"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-transformers/distribution-transformer-dga-the-future-of-monitoring-distribution-systems" rel="bookmark" title="Distribution Transformer DGA – The Future of Monitoring Distribution Systems">Distribution Transformer DGA – The Future of Monitoring Distribution Systems</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/leon-white">Leon White</a></div><div class="td-post-views"><i class="fa-solid fa-eye"></i>1959</div><div class="td-post-comments"><i class="fa-solid fa-comments"></i><a href="https://www.electricity-today.com/electrical-transformers/distribution-transformer-dga-the-future-of-monitoring-distribution-systems#respond">0</a></div></div></div></div><div id="td_uid_37_6576ce1a7392b_item_5" class="td_module_slide td-animation-stack td-image-gradient" style="width: 696px; backface-visibility: hidden; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 7656, 0);"><div class="td-module-thumb"><a href="https://www.electricity-today.com/lineman-safety/grounding-protection/grounding-system-testing-simplified-fall-of-potential-and-step-and-touch-voltage-testing" rel="bookmark" title="Grounding System Testing:  Simplified Fall-Of-Potential And Step-And-Touch Voltage Testing"><img width="696" height="308" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/1-23-e1679528835630-696x308.jpg" alt="" title="Grounding System Testing:  Simplified Fall-Of-Potential And Step-And-Touch Voltage Testing"></a></div><div class="td-slide-meta"><h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/lineman-safety/grounding-protection/grounding-system-testing-simplified-fall-of-potential-and-step-and-touch-voltage-testing" rel="bookmark" title="Grounding System Testing:  Simplified Fall-Of-Potential And Step-And-Touch Voltage Testing">Grounding System Testing:  Simplified Fall-Of-Potential And Step-And-Touch Voltage Testing</a></h3><div class="td-module-meta-info"><div class="td-post-author-name"><a href="https://www.electricity-today.com/author/logan-merrill">Logan Merrill</a></div><div class="td-post-views"><i class="fa-solid fa-eye"></i>3025</div><div class="td-post-comments"><i class="fa-solid fa-comments"></i><a href="https://www.electricity-today.com/lineman-safety/grounding-protection/grounding-system-testing-simplified-fall-of-potential-and-step-and-touch-voltage-testing#respond">0</a></div></div></div></div></div>
+    <!-- <i class="td-icon-left prevButton" style="cursor: pointer;"></i> -->
+    <i class="fa-solid fa-angle-left slider-prev slider-btn"></i>
+    <i class="fa-solid fa-angle-right slider-next slider-btn"></i>
+    <i class="i7286" style="position: absolute; right: 10px; bottom: 10px; z-index: 1000; font-style: normal; background: rgb(255, 255, 255); opacity: 0.2;"></i><i class="i7286" style="position: absolute; inset: 10px auto auto 10px; z-index: 1000; font-style: normal; background: rgb(255, 255, 255); opacity: 0.2;"></i></div></div></div> <!-- ./block1 --></div></div>
 <style scoped="">
 .td_uid_38_6576ce1a7ada2_rand .td_module_wrap:hover .entry-title a,
             .td_uid_38_6576ce1a7ada2_rand a.td-pulldown-filter-link:hover,
@@ -132,70 +239,61 @@ tdBlocksArray.push(block_td_uid_36_6576ce1a7183a);
             .td_uid_38_6576ce1a7ada2_rand .block-title {
                 border-color: #dd3333;
             }
-</style>
-<div class="wpb_column vc_column_container td-pb-span4">
-    <div class="wpb_wrapper">
-        <div class="td_block_wrap td_block_text_with_title td_uid_38_6576ce1a7ada2_rand td-pb-border-top">
-            <h4 class="block-title"><span>Read Our Latest Issue</span></h4>
-            <div class="td_mod_wrap">
-                <div id="metaslider-id-3752" style="width: 100%;" class="ml-slider-3-15-3 metaslider metaslider-flex metaslider-3752 ml-slider">
-                    <div id="metaslider_container_3752">
-                        <div id="metaslider_3752" class="flexslider">
-                            <ul aria-live="polite" class="slides">
-                                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; z-index: 2;" class="slide-5951 ms-image flex-active-slide" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/septemberoctober-2023/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_sep_oct_2023_cover_300x250.jpg" class="slider-3752 slide-5951" alt="" rel="" title="et_sep_oct_2023_cover_300x250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/septemberoctober-2023/" target="_blank">CLICK HERE TO READ OUR LATEST ISSUE</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/et-sep-oct-2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br><span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br><a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br><a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5918 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/julyaugust-2023/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_jul_aug_2023_cover_300x250.jpg" class="slider-3752 slide-5918" alt="" rel="" title="et_jul_aug_2023_cover_300x250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/julyaugust-2023/" target="_blank">Read Online Here</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/et-jul-aug-2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br><span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br><a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br><a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5877 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/mayjune-2023/" target="_blank"><img width="208" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_may_june_2023_cover_300x250.jpg" class="slider-3752 slide-5877" alt="" rel="" title="et_may_june_2023_cover_300x250" style="margin: 0 auto; width: 55.466666666667%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/mayjune-2023/" target="_blank">READ ONLINE HERE</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/magazine-may-jun-2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br><span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br><a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br><a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5782 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/marchapril-2023/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_mar_apr_2023_cover300X250.jpg" class="slider-3752 slide-5782" alt="" rel="" title="et_mar_apr_2023_cover300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/marchapril-2023/" target="_blank">Read Online Here</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/march-april2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
-                                    <span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
-                                    <a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
-                                    <a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5747 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/januaryfebruary-2023/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_jan_feb_2023_300X250.png" class="slider-3752 slide-5747" alt="" rel="" title="et_jan_feb_2023_300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/januaryfebruary-2023/" target="_blank">Read Online Overhead and Underground T&amp;D Technologies Special Edition 2023</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/january-february2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
-                                    <span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
-                                    <a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
-                                    <a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5697 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/novemberdecember-2022/" target="_self"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/cover_et_nov_dec_2022-300X250.png" class="slider-3752 slide-5697" alt="" rel="" title="cover_et_nov_dec_2022-300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/novemberdecember-2022/" target="_blank">Read Online Electrical Reliability Systems Special Edition 2022</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/november-december2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
-                                    <span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
-                                    <a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
-                                    <a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5654 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/septemberoctober-2022/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/Cover-et_sept_oct_2022_300X250.jpg" class="slider-3752 slide-5654" alt="" rel="" title="Cover-et_sept_oct_2022_300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/septemberoctober-2022/" target="_blank">Read Online Linemen Safety Special Edition 2022</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/september-october-2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
-                                    <span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
-                                    <a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
-                                    <a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5631 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/julyaugust-2022/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_jul_aug_2022-300X250.png" class="slider-3752 slide-5631" alt="" rel="" title="et_jul_aug_2022-300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://www.electricityforum.com/catalog/The-Electricity-Forum/july-august2022" target="_blank">Read Online Electrical Substation Technologies Special Edition 2022</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/july-august2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
-                                    <span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
-                                    <a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
-                                    <a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5590 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/mayjune-2022/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_may_jun_2022_300X250.png" class="slider-3752 slide-5590" alt="" rel="" title="et_may_jun_2022_300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/mayjune-2022" target="_blank">Read Online Transformers Special Edition 2022</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/may-june2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
-                                    <span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
-                                    <a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
-                                    <a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5543 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/marchapril-2022" target="_self"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_mar_apr_2022_cover300X250.png" class="slider-3752 slide-5543" alt="" rel="" title="et_mar_apr_2022_cover300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/marchapril-2022" target="_blank">Read Online Overhead &amp; Underground T&amp;D Technologies Special Edition 2022</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/march-april2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
-                                    <span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
-                                    <a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
-                                    <a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                                                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5496 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/januaryfebruary-2022" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_jan_feb_2022-300X250.jpg" class="slider-3752 slide-5496" alt="" rel="" title="et_jan_feb_2022-300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/januaryfebruary-2022/" target="_blank">Read Online Electric Utility Operations Special Edition</a></span><br>
-                                    <a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/january-february2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
-                                    <span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
-                                    <a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
-                                    <a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
-                            </ul>
-                        <ol class="flex-control-nav flex-control-paging"><li><a href="#" class="flex-active">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">6</a></li><li><a href="#">7</a></li><li><a href="#">8</a></li><li><a href="#">9</a></li><li><a href="#">10</a></li><li><a href="#">11</a></li></ol><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="#">&lt;</a></li><li class="flex-nav-next"><a class="flex-next" href="#">&gt;</a></li></ul></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+</style><div class="wpb_column vc_column_container td-pb-span4"><div class="wpb_wrapper"><div class="td_block_wrap td_block_text_with_title td_uid_38_6576ce1a7ada2_rand td-pb-border-top"><h4 class="block-title"><span>Read Our Latest Issue</span></h4><div class="td_mod_wrap"><div id="metaslider-id-3752" style="width: 100%;" class="ml-slider-3-15-3 metaslider metaslider-flex metaslider-3752 ml-slider">
+    <div id="metaslider_container_3752">
+        <div id="metaslider_3752" class="flexslider">
+            <ul aria-live="polite" class="slides">
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; z-index: 2;" class="slide-5951 ms-image flex-active-slide" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/septemberoctober-2023/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_sep_oct_2023_cover_300x250.jpg" class="slider-3752 slide-5951" alt="" rel="" title="et_sep_oct_2023_cover_300x250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/septemberoctober-2023/" target="_blank">CLICK HERE TO READ OUR LATEST ISSUE</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/et-sep-oct-2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br><span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br><a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br><a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5918 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/julyaugust-2023/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_jul_aug_2023_cover_300x250.jpg" class="slider-3752 slide-5918" alt="" rel="" title="et_jul_aug_2023_cover_300x250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/julyaugust-2023/" target="_blank">Read Online Here</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/et-jul-aug-2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br><span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br><a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br><a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5877 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/mayjune-2023/" target="_blank"><img width="208" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_may_june_2023_cover_300x250.jpg" class="slider-3752 slide-5877" alt="" rel="" title="et_may_june_2023_cover_300x250" style="margin: 0 auto; width: 55.466666666667%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/mayjune-2023/" target="_blank">READ ONLINE HERE</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/magazine-may-jun-2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br><span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br><a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br><a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5782 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/marchapril-2023/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_mar_apr_2023_cover300X250.jpg" class="slider-3752 slide-5782" alt="" rel="" title="et_mar_apr_2023_cover300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/marchapril-2023/" target="_blank">Read Online Here</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/march-april2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
+<span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
+<a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
+<a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5747 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/januaryfebruary-2023/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_jan_feb_2023_300X250.png" class="slider-3752 slide-5747" alt="" rel="" title="et_jan_feb_2023_300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/januaryfebruary-2023/" target="_blank">Read Online Overhead and Underground T&amp;D Technologies Special Edition 2023</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/january-february2023" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
+<span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
+<a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
+<a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5697 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/novemberdecember-2022/" target="_self"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/cover_et_nov_dec_2022-300X250.png" class="slider-3752 slide-5697" alt="" rel="" title="cover_et_nov_dec_2022-300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/novemberdecember-2022/" target="_blank">Read Online Electrical Reliability Systems Special Edition 2022</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/november-december2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
+<span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
+<a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
+<a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5654 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/septemberoctober-2022/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/Cover-et_sept_oct_2022_300X250.jpg" class="slider-3752 slide-5654" alt="" rel="" title="Cover-et_sept_oct_2022_300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/septemberoctober-2022/" target="_blank">Read Online Linemen Safety Special Edition 2022</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/september-october-2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
+<span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
+<a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
+<a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5631 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/julyaugust-2022/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_jul_aug_2022-300X250.png" class="slider-3752 slide-5631" alt="" rel="" title="et_jul_aug_2022-300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://www.electricityforum.com/catalog/The-Electricity-Forum/july-august2022" target="_blank">Read Online Electrical Substation Technologies Special Edition 2022</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/july-august2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
+<span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
+<a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
+<a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5590 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/mayjune-2022/" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_may_jun_2022_300X250.png" class="slider-3752 slide-5590" alt="" rel="" title="et_may_jun_2022_300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/mayjune-2022" target="_blank">Read Online Transformers Special Edition 2022</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/may-june2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
+<span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
+<a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
+<a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5543 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/marchapril-2022" target="_self"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_mar_apr_2022_cover300X250.png" class="slider-3752 slide-5543" alt="" rel="" title="et_mar_apr_2022_cover300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/marchapril-2022" target="_blank">Read Online Overhead &amp; Underground T&amp;D Technologies Special Edition 2022</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/march-april2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
+<span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
+<a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
+<a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-5496 ms-image" aria-hidden="true" data-thumb-alt=""><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/januaryfebruary-2022" target="_blank"><img width="300" height="250" src="https://www.electricity-today.com/wp-content/uploads/et_jan_feb_2022-300X250.jpg" class="slider-3752 slide-5496" alt="" rel="" title="et_jan_feb_2022-300X250" style="margin: 0 auto; width: 80%" draggable="false"></a><div class="caption-wrap"><div class="caption"><span id="span_newissue"><a href="https://www.electricityforum.com/et-login.php?url=https://online.electricity-today.com/electricity-today/januaryfebruary-2022/" target="_blank">Read Online Electric Utility Operations Special Edition</a></span><br>
+<a href="https://www.electricityforum.com/catalog/The-Electricity-Forum/january-february2022" target="_blank"><strong>Download PDF - SPECIAL EDITION</strong></a><br>
+<span class="span_subs">SUBSCRIPTION</span><span class="span_center"> CENTER</span><br>
+<a href="https://www.electricityforum.com/et-subscription.php" target="_blank">Subscribe Now</a><br>
+<a href="https://www.electricityforum.com/et-renew.php">Update/Renew Subscription</a><br></div></div></li>
+            </ul>
+        <ol class="flex-control-nav flex-control-paging"><li><a href="#" class="flex-active">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">6</a></li><li><a href="#">7</a></li><li><a href="#">8</a></li><li><a href="#">9</a></li><li><a href="#">10</a></li><li><a href="#">11</a></li></ol><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="#">&lt;</a></li><li class="flex-nav-next"><a class="flex-next" href="#">&gt;</a></li></ul></div>
+        
     </div>
-</div></div><div class="vc_row wpb_row td-pb-row">
+</div></div></div></div></div></div><div class="vc_row wpb_row td-pb-row">
 <style scoped="">
 .td_uid_39_6576ce1a87806_rand .td_module_wrap:hover .entry-title a,
             .td_uid_39_6576ce1a87806_rand a.td-pulldown-filter-link:hover,
@@ -375,75 +473,57 @@ block_td_uid_95_6576ce1a8f6a0.ajax_pagination_infinite_stop = "";
 block_td_uid_95_6576ce1a8f6a0.max_num_pages = "25";
 tdBlocksArray.push(block_td_uid_95_6576ce1a8f6a0);
 </script><div class="td_block_wrap td_block_2 td_uid_95_6576ce1a8f6a0_rand td-pb-border-top"><h4 class="block-title"><span>Latest T&amp;D Articles</span></h4><div id="td_uid_95_6576ce1a8f6a0" class="td_block_inner">
-
-	<div class="td-block-row">
-
-	<div class="td-block-span6">
-
-        <div class="td_module_2 td_module_wrap td-animation-stack">
-            <div class="td-module-image">
-                <div class="td-module-thumb"><a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring" rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring"><img width="324" height="160" class="entry-thumb td-animation-stack-type0-1" src="https://www.electricity-today.com/wp-content/uploads/1-24-324x160.jpg" alt="" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring"></a></div>                            </div>
-            <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring" rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring">Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring</a></h3>
-
-            <div class="td-module-meta-info">
-                <div class="td-post-author-name"><a href="https://www.electricity-today.com/author/chris-rutledge">Chris Rutledge</a></div>                                <div class="td-module-comments"><a href="https://www.electricity-today.com/uncategorized/hydrogen-monitoring-in-the-transformer-headspace-compared-to-traditional-in-oil-monitoring#respond">0</a></div>            </div>
-
-
-            <div class="td-excerpt">
-                By Chris Rutledge, Product Manager, Dynamic Ratings, Inc.
-
-Introduction 
-The utilization of online dissolved gas analysis monitoring has proven to be one of the most...            </div>
-
-            
-        </div>
-
-        
-	</div> <!-- ./td-block-span6 -->
-
-	<div class="td-block-span6">
-
-        <div class="td_module_2 td_module_wrap td-animation-stack">
-            <div class="td-module-image">
-                <div class="td-module-thumb"><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component" rel="bookmark" title="The Distribution Transformer – Critical Power System Component"><img width="324" height="160" class="entry-thumb td-animation-stack-type0-1" src="https://www.electricity-today.com/wp-content/uploads/5-17-324x160.jpg" alt="" title="The Distribution Transformer – Critical Power System Component"></a></div>                            </div>
-            <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component" rel="bookmark" title="The Distribution Transformer – Critical Power System Component">The Distribution Transformer – Critical Power System Component</a></h3>
-
-            <div class="td-module-meta-info">
-                <div class="td-post-author-name"><a href="https://www.electricity-today.com/author/r-w-hurst">R.W. Hurst</a></div>                                <div class="td-module-comments"><a href="https://www.electricity-today.com/uncategorized/the-distribution-transformer-critical-power-system-component#respond">0</a></div>            </div>
-
-
-            <div class="td-excerpt">
-                By R.W. Hurst, Editor
-
-A distribution transformer is a critical component of the electrical power system, used to reduce the voltage of electrical energy for...            </div>
-
-            
-        </div>
-
-        
-	</div> <!-- ./td-block-span6 --></div><!--./row-fluid-->
-
-	<div class="td-block-row">
+	<div class="td-block-row box-flex box-flex-wrap">
         <?php
-            foreach($td_automation as $t):
+            for($i = 0; $i < count($td_automation); $i++):
         ?>
-        <div class="td-block-span6">
+
+        <?php
+            if($i == 0 || $i == 1):
+        ?>
+<div class="td-block-span6">
+        <div class="td_module_2 td_module_wrap td-animation-stack">
+            <div class="td-module-image">
+                <div class="td-module-thumb">
+                    <a href=<?= "https://www.electricity-today.com/uncategorized/" . $td_automation[$i]['slug'] ?> rel="bookmark" 
+                    title="<?= $td_automation[$i]['title'] ?>">
+                    <img width="324" height="160" class="entry-thumb td-animation-stack-type0-2" src=<?= $td_automation[$i]['image'] ?>  alt="" title=<?= $td_automation[$i]['image'] ?> ></a>
+                </div>
+            </div>
+            <h3 class="entry-title td-module-title"><a href=<?= "https://www.electricity-today.com/uncategorized/" . $td_automation[$i]['slug'] ?> rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring">Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring</a></h3>
+            <div class="td-module-meta-info">
+            <div class="td-post-author-name"><a href="https://www.electricity-today.com/author/chris-rutledge"><?= $td_automation[$i]['author_name'] ?></a></div>
+                <div class="td-module-comments">
+                    <a href=<?= "https://www.electricity-today.com/uncategorized/" . $td_automation[$i]['slug'] . "#"  . "respond" ?>><?= $td_automation[$i]['comment_count'] ?></a>
+                </div>
+            </div>
+            <div class="td-excerpt"><?= $td_automation[$i]['excerpt'] ?></div>
+        </div>
+    </div>
+        <?php else: ?>
+            <div class="td-block-span6">
             <div class="td_module_6 td_module_wrap td-animation-stack">
                 <div class="td-module-thumb">
                     <a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained">
-                        <img width="100" height="70" class="entry-thumb td-animation-stack-type0-1" src=<?= $t['image'] ?> alt="" title="Grounding Transformers Explained"></a>
+                        <img width="100" height="70" class="entry-thumb td-animation-stack-type0-1" src=<?= $td_automation[$i]['image'] ?> alt="" title="Grounding Transformers Explained"></a>
                 </div>
                 <div class="item-details">
-                    <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained"><?php $t['title'] ?></a></h3>           
+                    <h3 class="entry-title td-module-title">
+                        <a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained">
+                            <?= $td_automation[$i]['title'] ?>
+                        </a>
+                    </h3>           
                     <div class="td-module-meta-info"></div>
                 </div>
             </div>
 	    </div> <!-- ./td-block-span6 -->
-        <?php
-            endforeach;
-        ?>
+        <?php endif; ?>
 
+        <?php
+            endfor;
+        ?>
     </div> <!-- ./block -->
+</div></div> <!-- ./block -->
 	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
 		<div class="wpb_wrapper">
 			<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -454,159 +534,107 @@ A distribution transformer is a critical component of the electrical power syste
 		</div>
 	</div>
 </div></div>
-<style scoped="">
-.td_uid_96_6576ce1aa9296_rand .td_module_wrap:hover .entry-title a,
-            .td_uid_96_6576ce1aa9296_rand a.td-pulldown-filter-link:hover,
-            .td_uid_96_6576ce1aa9296_rand .td-subcat-item a:hover,
-            .td_uid_96_6576ce1aa9296_rand .td-subcat-item .td-cur-simple-item,
-            .td_uid_96_6576ce1aa9296_rand .td_quote_on_blocks {
-                color: #8224e3;
-            }
 
-            .td_uid_96_6576ce1aa9296_rand .td-next-prev-wrap a:hover,
-            .td_uid_96_6576ce1aa9296_rand .td-load-more-wrap a:hover {
-                background-color: #8224e3;
-                border-color: #8224e3;
-            }
-            .td_uid_96_6576ce1aa9296_rand .td-subcat-dropdown:hover .td-subcat-more,
-            .td_uid_96_6576ce1aa9296_rand .td-post-category:hover {
-                background-color: #8224e3;
-            }
 
-            .td_uid_96_6576ce1aa9296_rand .block-title span,
-            .td_uid_96_6576ce1aa9296_rand .td-trending-now-title,
-            .td_uid_96_6576ce1aa9296_rand .block-title a,
-            .td_uid_96_6576ce1aa9296_rand .td-read-more a,
-            .td_uid_96_6576ce1aa9296_rand .td-weather-information:before,
-            .td_uid_96_6576ce1aa9296_rand .td-weather-week:before {
-                background-color: #8224e3;
-            }
-
-            .td_uid_96_6576ce1aa9296_rand .block-title {
-                border-color: #8224e3;
-            }
-</style>
-<style scoped="">
-.td_uid_97_6576ce1aadb96_rand .td_module_wrap:hover .entry-title a,
-            .td_uid_97_6576ce1aadb96_rand a.td-pulldown-filter-link:hover,
-            .td_uid_97_6576ce1aadb96_rand .td-subcat-item a:hover,
-            .td_uid_97_6576ce1aadb96_rand .td-subcat-item .td-cur-simple-item,
-            .td_uid_97_6576ce1aadb96_rand .td_quote_on_blocks {
-                color: #1e73be;
-            }
-
-            .td_uid_97_6576ce1aadb96_rand .td-next-prev-wrap a:hover,
-            .td_uid_97_6576ce1aadb96_rand .td-load-more-wrap a:hover {
-                background-color: #1e73be;
-                border-color: #1e73be;
-            }
-            .td_uid_97_6576ce1aadb96_rand .td-subcat-dropdown:hover .td-subcat-more,
-            .td_uid_97_6576ce1aadb96_rand .td-post-category:hover {
-                background-color: #1e73be;
-            }
-
-            .td_uid_97_6576ce1aadb96_rand .block-title span,
-            .td_uid_97_6576ce1aadb96_rand .td-trending-now-title,
-            .td_uid_97_6576ce1aadb96_rand .block-title a,
-            .td_uid_97_6576ce1aadb96_rand .td-read-more a,
-            .td_uid_97_6576ce1aadb96_rand .td-weather-information:before,
-            .td_uid_97_6576ce1aadb96_rand .td-weather-week:before {
-                background-color: #1e73be;
-            }
-
-            .td_uid_97_6576ce1aadb96_rand .block-title {
-                border-color: #1e73be;
-            }
-</style>
-<style scoped="">
-.td_uid_98_6576ce1aae5bb_rand .td_module_wrap:hover .entry-title a,
-            .td_uid_98_6576ce1aae5bb_rand a.td-pulldown-filter-link:hover,
-            .td_uid_98_6576ce1aae5bb_rand .td-subcat-item a:hover,
-            .td_uid_98_6576ce1aae5bb_rand .td-subcat-item .td-cur-simple-item,
-            .td_uid_98_6576ce1aae5bb_rand .td_quote_on_blocks {
-                color: #dd3333;
-            }
-
-            .td_uid_98_6576ce1aae5bb_rand .td-next-prev-wrap a:hover,
-            .td_uid_98_6576ce1aae5bb_rand .td-load-more-wrap a:hover {
-                background-color: #dd3333;
-                border-color: #dd3333;
-            }
-            .td_uid_98_6576ce1aae5bb_rand .td-subcat-dropdown:hover .td-subcat-more,
-            .td_uid_98_6576ce1aae5bb_rand .td-post-category:hover {
-                background-color: #dd3333;
-            }
-
-            .td_uid_98_6576ce1aae5bb_rand .block-title span,
-            .td_uid_98_6576ce1aae5bb_rand .td-trending-now-title,
-            .td_uid_98_6576ce1aae5bb_rand .block-title a,
-            .td_uid_98_6576ce1aae5bb_rand .td-read-more a,
-            .td_uid_98_6576ce1aae5bb_rand .td-weather-information:before,
-            .td_uid_98_6576ce1aae5bb_rand .td-weather-week:before {
-                background-color: #dd3333;
-            }
-
-            .td_uid_98_6576ce1aae5bb_rand .block-title {
-                border-color: #dd3333;
-            }
-</style>
-<div class="wpb_column vc_column_container td-pb-span4">
+<div class="wpb_column vc_column_container td-pb-span4"><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
     <div class="wpb_wrapper">
-        <div class="wpb_raw_code wpb_content_element wpb_raw_html">
-            <div class="wpb_wrapper">
-                <div class="block-title"><span>Featured ET Partner</span></div>
-                <a href="https://www.electricityforum.com/banmanpro/A.aspx?Task=Click&amp;ZoneID=27&amp;CampaignID=43&amp;AdvertiserID=32&amp;BannerID=1963&amp;SiteID=1&amp;RandomNumber=232331766&amp;Keywords=" target="_Blank" rel="nofollow"><img id="Picture" style="max-width:100%; height:auto;" src="https://www.electricityforum.com/banmanpro/imgs/magazine_sep_oct_2023_deltaX_page_3_300w.png" width="300" height="394" alt="" title="" align="Center" border="0"></a><br>
-                <br><br><br>
-                <style>.ban_img img{width:100%!important;}</style> 
-                <div class="ban_img">
-                <script language="javascript" type="text/javascript">
-                var browName = navigator.appName;
-                var SiteID = 1;
-                var ZoneID = 33;
-                var browDateTime = (new Date()).getTime();
-                var wd = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-                if (browName=='Netscape')
-                {
-                document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=42842&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
-                }
-                if (browName!='Netscape')
-                {
-                document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;PageID=42842&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
-                }
-                // -->
-                </script><script language="javascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=33&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=42842&amp;SiteID=1&amp;Random=1702284827584&amp;wd=1689"></script><a href="https://www.electricityforum.com/banmanpro/A.aspx?Task=Click&amp;ZoneID=33&amp;CampaignID=56&amp;AdvertiserID=32&amp;BannerID=1959&amp;SiteID=1&amp;RandomNumber=1766254314&amp;Keywords=" target="_Blank" rel="nofollow"><img id="Picture" style="max-width:100%; height:auto;" src="https://www.electricityforum.com/banmanpro/imgs/magazine_sep_oct_2023_zensol_page_11_375w.png" width="375" height="260" alt="" title="" align="Center" border="0"></a><br>
-            </div>
-		</div>
-	</div>
 	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
 		<div class="wpb_wrapper">
-		<!-- Begin -  Site: EF Zone: ET-Square-Sideboard-Top -->
-                <a href="https://www.electricityforum.com/banmanpro/A.aspx?Task=Click&amp;ZoneID=11&amp;CampaignID=84&amp;AdvertiserID=54&amp;BannerID=830&amp;SiteID=1&amp;RandomNumber=1252693219&amp;Keywords=" target="_Blank" rel="nofollow"><img id="Picture" style="max-width:100%; height:auto;" src="https://www.electricityforum.com/banmanpro/imgs/Buyers-Guide-2022-Square_1659536255.jpg" width="300" height="250" alt="" title="" align="Center" border="0"></a><br>
-            <!-- End -  Site: EF Zone: ET-Square-Sideboard-Top -->
+			<div class="block-title"><span>Featured ET Partner</span></div>
+<!-- Begin -  Site: EF Zone: ET magazine ads -->
+<script language="javascript" type="text/javascript">
+<!--
+var browName = navigator.appName;
+var SiteID = 1;
+var ZoneID = 27;
+var browDateTime = (new Date()).getTime();
+var wd = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+if (browName=='Netscape')
+{
+document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=78995&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
+}
+if (browName!='Netscape')
+{
+document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;PageID=78995&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
+}
+// --> 
+</script><script language="javascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=27&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=78995&amp;SiteID=1&amp;Random=1702516349055&amp;wd=1830"></script><a href="https://www.electricityforum.com/banmanpro/A.aspx?Task=Click&amp;ZoneID=27&amp;CampaignID=43&amp;AdvertiserID=32&amp;BannerID=1965&amp;SiteID=1&amp;RandomNumber=2093160769&amp;Keywords=" target="_Blank" rel="nofollow"><img id="Picture" style="max-width:100%; height:auto;" src="https://www.electricityforum.com/banmanpro/imgs/magazine_sep_oct_2023_Integrated_Engineering_page_8_300w.png" width="300" height="393" alt="" title="" align="Center" border="0"></a><br>
+<br><br><br>
+
+<style>.ban_img img{width:100%!important;}</style> 
+<div class="ban_img">
+<script language="javascript" type="text/javascript">
+        <!--
+        var browName = navigator.appName;
+        var SiteID = 1;
+        var ZoneID = 33;
+        var browDateTime = (new Date()).getTime();
+        var wd = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        if (browName=='Netscape')
+        {
+        document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=42842&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
+        }
+        if (browName!='Netscape')
+        {
+        document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;PageID=42842&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
+        }
+        // -->
+        </script><script language="javascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=33&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=42842&amp;SiteID=1&amp;Random=1702516349130&amp;wd=1830"></script><a href="https://www.electricityforum.com/banmanpro/A.aspx?Task=Click&amp;ZoneID=33&amp;CampaignID=56&amp;AdvertiserID=32&amp;BannerID=1959&amp;SiteID=1&amp;RandomNumber=1579599674&amp;Keywords=" target="_Blank" rel="nofollow"><img id="Picture" style="max-width:100%; height:auto;" src="https://www.electricityforum.com/banmanpro/imgs/magazine_sep_oct_2023_zensol_page_11_375w.png" width="375" height="260" alt="" title="" align="Center" border="0"></a><br>
+</div>
+
 		</div>
 	</div>
-    <div class="td_block_wrap td_block_text_with_title td_uid_96_6576ce1aa9296_rand td-pb-border-top"><h4 class="block-title"><span>Free T&amp;D Literature</span></h4><div class="td_mod_wrap"><div id="metaslider-id-2667" style="max-width: 150px;" class="ml-slider-3-15-3 metaslider metaslider-flex metaslider-2667 ml-slider nav-hidden nav-hidden">
-        <div id="metaslider_container_2667">
-            <div id="metaslider_2667" class="flexslider">
-                <ul aria-live="polite" class="slides">
-                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; z-index: 2;" class="slide-4245 ms-image flex-active-slide"><a href="http://www.electricityforum2.com/download_catalog/index_n.php?reference=45" target="_self"><img width="320" height="406" src="https://www.electricity-today.com/wp-content/uploads/SorbWeb-Brochure.jpg" class="slider-2667 slide-4245" alt="" rel="" title="" srcset="https://www.electricity-today.com/wp-content/uploads/SorbWeb-Brochure.jpg 320w, https://www.electricity-today.com/wp-content/uploads/SorbWeb-Brochure-236x300.jpg 236w" sizes="(max-width: 320px) 100vw, 320px" draggable="false"></a><div class="caption-wrap"><div class="caption">The SorbWeb Plus solution - Secondary Oil Containment System</div></div></li>
-                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-4085 ms-image" aria-hidden="true"><a href="http://www.electricityforum2.com/download_catalog/index_n.php?reference=44" target="_self"><img width="154" height="195" src="https://www.electricity-today.com/wp-content/uploads/the-Power-gripz-catalog.png" class="slider-2667 slide-4085" alt="" rel="" title="" draggable="false"></a><div class="caption-wrap"><div class="caption">The Power Gripz 2016/2017 Product Lineup</div></div></li>
-                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-3972 ms-image" aria-hidden="true"><a href="http://www.electricityforum2.com/download_catalog/index_n.php?reference=39" target="_self"><img width="140" height="198" src="https://www.electricity-today.com/wp-content/uploads/RPI-Catalog.png" class="slider-2667 slide-3972" alt="" rel="" title="" draggable="false"></a><div class="caption-wrap"><div class="caption">Red Phase Instruments Product Catalog</div></div></li>
-                    <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-4250 ms-image" aria-hidden="true"><a href="http://www.electricityforum2.com/download_catalog/index_n.php?reference=4" target="_self"><img width="300" height="388" src="https://www.electricity-today.com/wp-content/uploads/onsite-catalog.png" class="slider-2667 slide-4250" alt="" rel="" title="" srcset="https://www.electricity-today.com/wp-content/uploads/onsite-catalog.png 300w, https://www.electricity-today.com/wp-content/uploads/onsite-catalog-232x300.png 232w" sizes="(max-width: 300px) 100vw, 300px" draggable="false"></a><div class="caption-wrap"><div class="caption">2017 On-Site Electrical Training Catalog</div></div></li>
-                </ul>
-            <ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="#">&lt;</a></li><li class="flex-nav-next"><a class="flex-next" href="#">&gt;</a></li></ul></div>
+
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<!-- Begin -  Site: EF Zone: ET-Square-Sideboard-Top -->
+<script language="javascript" type="text/javascript">
+<!--
+var browName = navigator.appName;
+var SiteID = 1;
+var ZoneID = 11;
+var browDateTime = (new Date()).getTime();
+var wd = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+if (browName=='Netscape')
+{
+document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=55928&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
+}
+if (browName!='Netscape')
+{
+document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;PageID=55928&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
+}
+// --> 
+</script><script language="javascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=11&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=55928&amp;SiteID=1&amp;Random=1702516349210&amp;wd=1830"></script>
+<a href="https://www.electricityforum.com/banmanpro/A.aspx?Task=Click&amp;ZoneID=11&amp;CampaignID=165&amp;AdvertiserID=14&amp;BannerID=1882&amp;SiteID=1&amp;RandomNumber=1066038579&amp;Keywords=" target="_Blank" rel="nofollow">
+    <img id="Picture" style="max-width:100%; height:auto;" src="https://www.electricityforum.com/banmanpro/imgs/Phenix_Banner_300x250_1675751502.jpg" width="300" height="250" alt="" title="" align="Center" border="0"></a><br>
+<!-- End -  Site: EF Zone: ET-Square-Sideboard-Top -->
+
+		</div>
+	</div>
+<div class="td_block_wrap td_block_text_with_title td_uid_96_657a567c1e746_rand td-pb-border-top"><h4 class="block-title"><span>Free T&amp;D Literature</span></h4><div class="td_mod_wrap"><div id="metaslider-id-2667" style="max-width: 150px;" class="ml-slider-3-15-3 metaslider metaslider-flex metaslider-2667 ml-slider nav-hidden nav-hidden">
+    <div id="metaslider_container_2667">
+        <div id="metaslider_2667" class="flexslider">
+            <ul aria-live="polite" class="slides">
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; z-index: 2;" class="slide-4245 ms-image flex-active-slide"><a href="http://www.electricityforum2.com/download_catalog/index_n.php?reference=45" target="_self"><img width="320" height="406" src="https://www.electricity-today.com/wp-content/uploads/SorbWeb-Brochure.jpg" class="slider-2667 slide-4245" alt="" rel="" title="" srcset="https://www.electricity-today.com/wp-content/uploads/SorbWeb-Brochure.jpg 320w, https://www.electricity-today.com/wp-content/uploads/SorbWeb-Brochure-236x300.jpg 236w" sizes="(max-width: 320px) 100vw, 320px" draggable="false"></a><div class="caption-wrap"><div class="caption">The SorbWeb Plus solution - Secondary Oil Containment System</div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-4085 ms-image" aria-hidden="true"><a href="http://www.electricityforum2.com/download_catalog/index_n.php?reference=44" target="_self"><img width="154" height="195" src="https://www.electricity-today.com/wp-content/uploads/the-Power-gripz-catalog.png" class="slider-2667 slide-4085" alt="" rel="" title="" draggable="false"></a><div class="caption-wrap"><div class="caption">The Power Gripz 2016/2017 Product Lineup</div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-3972 ms-image" aria-hidden="true"><a href="http://www.electricityforum2.com/download_catalog/index_n.php?reference=39" target="_self"><img width="140" height="198" src="https://www.electricity-today.com/wp-content/uploads/RPI-Catalog.png" class="slider-2667 slide-3972" alt="" rel="" title="" draggable="false"></a><div class="caption-wrap"><div class="caption">Red Phase Instruments Product Catalog</div></div></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-4250 ms-image" aria-hidden="true"><a href="http://www.electricityforum2.com/download_catalog/index_n.php?reference=4" target="_self"><img width="300" height="388" src="https://www.electricity-today.com/wp-content/uploads/onsite-catalog.png" class="slider-2667 slide-4250" alt="" rel="" title="" srcset="https://www.electricity-today.com/wp-content/uploads/onsite-catalog.png 300w, https://www.electricity-today.com/wp-content/uploads/onsite-catalog-232x300.png 232w" sizes="(max-width: 300px) 100vw, 300px" draggable="false"></a><div class="caption-wrap"><div class="caption">2017 On-Site Electrical Training Catalog</div></div></li>
+            </ul>
+        <ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="#">&lt;</a></li><li class="flex-nav-next"><a class="flex-next" href="#">&gt;</a></li></ul></div>
+        
     </div>
 </div></div></div>
 	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
 		<div class="wpb_wrapper">
 			<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-3893876086246397" data-ad-slot="7050809773" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_1_host" style="border: none; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;" tabindex="0" title="Advertisement" aria-label="Advertisement"><iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3893876086246397&amp;output=html&amp;h=250&amp;slotname=7050809773&amp;adk=4075154461&amp;adf=2461339411&amp;pi=t.ma~as.7050809773&amp;w=300&amp;lmt=1702284829&amp;format=300x250&amp;url=https%3A%2F%2Fwww.electricity-today.com%2F&amp;ea=0&amp;wgl=1&amp;uach=WyJtYWNPUyIsIjEzLjAuMCIsImFybSIsIiIsIjEyMC4wLjYwOTkuNzEiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuNzEiXSxbIkdvb2dsZSBDaHJvbWUiLCIxMjAuMC42MDk5LjcxIl1dLDBd&amp;dt=1702284827742&amp;bpp=2&amp;bdt=504&amp;idt=2&amp;shv=r20231206&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D0fade4e6be660b42%3AT%3D1702087869%3ART%3D1702284629%3AS%3DALNI_MZARx6yv-xVs7V3JZdNPrB_HIDY1Q&amp;gpic=UID%3D00000d166efcb939%3AT%3D1702087869%3ART%3D1702284629%3AS%3DALNI_MZTE-QS_leielVokOY5nvKbtrYCGQ&amp;prev_fmts=0x0%2C728x90&amp;nras=1&amp;correlator=3658091708502&amp;frm=20&amp;pv=1&amp;ga_vid=2140814517.1702284828&amp;ga_sid=1702284828&amp;ga_hid=1583029047&amp;ga_fc=0&amp;u_tz=-480&amp;u_his=31&amp;u_h=1200&amp;u_w=1920&amp;u_ah=1175&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=1047&amp;ady=2180&amp;biw=1674&amp;bih=982&amp;scr_x=0&amp;scr_y=0&amp;eid=44759876%2C44759927%2C31079265%2C31079714%2C44798934%2C31080065%2C44807749%2C95320884%2C31078663%2C31078665%2C31078668%2C31078670&amp;oid=2&amp;pvsid=3228981284152099&amp;tmod=1300999937&amp;uas=0&amp;nvt=2&amp;ref=https%3A%2F%2Fwww.electricity-today.com%2Fissue-archives&amp;fc=896&amp;brdim=-1920%2C46%2C-1920%2C46%2C1920%2C25%2C1689%2C1067%2C1689%2C982&amp;vis=1&amp;rsz=%7C%7CoeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;td=1&amp;psd=W251bGwsbnVsbCwibGFiZWxfb25seV80IiwxXQ..&amp;nt=1&amp;ifi=2&amp;uci=a!2&amp;btvi=2&amp;fsb=1&amp;dtd=2159" data-google-container-id="a!2" data-google-query-id="CK-755SBh4MDFfgv-QAdwOgHsQ" data-load-complete="true"></iframe></div></ins>
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-3893876086246397" data-ad-slot="7050809773" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_1_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3893876086246397&amp;output=html&amp;h=250&amp;slotname=7050809773&amp;adk=4075154461&amp;adf=2461339411&amp;pi=t.ma~as.7050809773&amp;w=300&amp;lmt=1702516349&amp;format=300x250&amp;url=https%3A%2F%2Fwww.electricity-today.com%2F&amp;ea=0&amp;wgl=1&amp;uach=WyJtYWNPUyIsIjEzLjAuMCIsImFybSIsIiIsIjEyMC4wLjYwOTkuNzEiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuNzEiXSxbIkdvb2dsZSBDaHJvbWUiLCIxMjAuMC42MDk5LjcxIl1dLDBd&amp;dt=1702516349288&amp;bpp=1&amp;bdt=490&amp;idt=1&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D0fade4e6be660b42%3AT%3D1702087869%3ART%3D1702516064%3AS%3DALNI_MZARx6yv-xVs7V3JZdNPrB_HIDY1Q&amp;gpic=UID%3D00000d166efcb939%3AT%3D1702087869%3ART%3D1702516064%3AS%3DALNI_MZTE-QS_leielVokOY5nvKbtrYCGQ&amp;correlator=6329508164374&amp;frm=20&amp;pv=2&amp;ga_vid=1344055231.1702516349&amp;ga_sid=1702516349&amp;ga_hid=940950137&amp;ga_fc=0&amp;u_tz=-480&amp;u_his=10&amp;u_h=1200&amp;u_w=1920&amp;u_ah=1118&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=1118&amp;ady=2215&amp;biw=1815&amp;bih=982&amp;scr_x=0&amp;scr_y=1964&amp;eid=44759876%2C44759927%2C44759837%2C95320868%2C95320884%2C31078663%2C31078665%2C31078668%2C31078670&amp;oid=2&amp;pvsid=4056275006531935&amp;tmod=925751958&amp;uas=0&amp;nvt=2&amp;ref=https%3A%2F%2Fwww.electricity-today.com%2Felectrical-substation%2Fhigh-voltage-test-equipment%2Fa-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance&amp;fc=640&amp;brdim=-1895%2C25%2C-1895%2C25%2C1920%2C25%2C1830%2C1067%2C1830%2C982&amp;vis=2&amp;rsz=%7C%7CoeEr%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;td=1&amp;psd=W251bGwsbnVsbCwibGFiZWxfb25seV80IiwxXQ..&amp;nt=1&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=6" data-google-container-id="a!2" data-google-query-id="CKPz6NHfjYMDFYmCpwodlqoJHg" data-load-complete="true"></iframe></div></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 		</div>
 	</div>
-<div class="td_block_wrap td_block_text_with_title td_uid_97_6576ce1aadb96_rand td-pb-border-top"><h4 class="block-title"><span>T&amp;D News</span></h4><div class="td_mod_wrap"><p></p>
+<div class="td_block_wrap td_block_text_with_title td_uid_97_657a567c23c2e_rand td-pb-border-top"><h4 class="block-title"><span>T&amp;D News</span></h4><div class="td_mod_wrap"><p></p>
 <div id="home_news" style="width: 100%;"><ul type="disc" class="newsdiv">    <li><div class="margin_top10">
         <div class="download-title courses_section">
             <a href="https://www.electricityforum.com/news/quebec-electricity-industrial-projects" title="Quebec authorizes nearly 1,000 megawatts of electricity for 11 industrial projects" class="dark-link" target="_blank">Quebec authorizes nearly 1,000 megawatts of electricity for 11 industrial projects</a>               
@@ -628,22 +656,16 @@ A distribution transformer is a critical component of the electrical power syste
             <a href="https://www.electricityforum.com/news/bc-battery-plant" title="Prime minister, B.C. premier announce $1B B.C. battery plant" class="dark-link" target="_blank">Prime minister, B.C. premier announce $1B B.C. battery plant</a>               
         </div>           
     </div></li></ul></div>
-<p></p></div></div><div class="td_block_wrap td_block_text_with_title td_uid_98_6576ce1aae5bb_rand td-pb-border-top"><h4 class="block-title"><span>Electrical Training</span></h4><div class="td_mod_wrap"><p></p>
+<p><script>
+jQuery(document).ready(function(){
+    jQuery.post("https://www.electricityforum.com/news-mag.php",{},function(response){
+        jQuery("#home_news").html(response);
+    }) ;   
+})
+</script></p></div></div><div class="td_block_wrap td_block_text_with_title td_uid_98_657a567c248b5_rand td-pb-border-top"><h4 class="block-title"><span>Electrical Training</span></h4><div class="td_mod_wrap"><p></p>
 <div id="home_course" style="width: 100%;"><div class="margin_top10">
 		<h4 class="smallcaps">
 				Dec, 2023	</h4>
-	
-	<div class="download-title courses_section">
-		<a class="dark-link" target="_blank" href="https://www.electricityforum.com/electrical-training/vfd-training">VFD Training</a>
-	</div>
-</div>
-<div class="margin_top10">
-	
-	<div class="download-title courses_section">
-		<a class="dark-link" target="_blank" href="https://www.electricityforum.com/electrical-training/nfpa70e-training">NFPA 70e Training - Arc Flash/Shock</a>
-	</div>
-</div>
-<div class="margin_top10">
 	
 	<div class="download-title courses_section">
 		<a class="dark-link" target="_blank" href="https://www.electricityforum.com/electrical-training/combined-nfpa70e-lv-hv-safety">Combined NFPA 70e LV Arc Flash And HV Electrical Safety</a>
@@ -653,12 +675,6 @@ A distribution transformer is a critical component of the electrical power syste
 	
 	<div class="download-title courses_section">
 		<a class="dark-link" target="_blank" href="https://www.electricityforum.com/electrical-training/high-voltage-safety-training">High Voltage Safety Training</a>
-	</div>
-</div>
-<div class="margin_top10">
-	
-	<div class="download-title courses_section">
-		<a class="dark-link" target="_blank" href="https://www.electricityforum.com/electrical-training/lockout-tagout-training">Lockout Tagout Training</a>
 	</div>
 </div>
 <div class="margin_top10">
@@ -839,48 +855,13 @@ A distribution transformer is a critical component of the electrical power syste
 <br>
 <a class="a_reg" target="_blank" href="https://www.electricityforum.com/onsite-training-rfq">click here for free quotation</a><br>
 </div>
-<p>
-<script language="javascript" type="text/javascript">
-var browName = navigator.appName;
-var SiteID = 1;
-var ZoneID = 27;
-var browDateTime = (new Date()).getTime();
-var wd = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-if (browName=='Netscape')
-{
-document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=78995&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
-}
-if (browName!='Netscape')
-{
-document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;PageID=78995&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
-}
-// --> 
-</script>
-<script language="javascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=27&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=78995&amp;SiteID=1&amp;Random=1702284827502&amp;wd=1689"></script>
-    <script>
+<p><script>
 jQuery(document).ready(function(){
-    jQuery.post("https://www.electricityforum.com/news-mag.php",{},function(response){
-        jQuery("#home_news").html(response);
+    jQuery.post("https://www.electricityforum.com/courses-mag.php",{},function(response){
+        jQuery("#home_course").html(response);
     }) ;   
 })
-</script>
-<script language="javascript" type="text/javascript">
-var browName = navigator.appName;
-var SiteID = 1;
-var ZoneID = 11;
-var browDateTime = (new Date()).getTime();
-var wd = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-if (browName=='Netscape')
-{
-document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=55928&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
-}
-if (browName!='Netscape')
-{
-document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;PageID=55928&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '&amp;wd=' + wd  + '">'); document.write('</'+'scr'+'ipt>');
-}
-// --> 
-</script>
-<script language="javascript" src="https://www.electricityforum.com/banmanpro/A.aspx?ZoneID=11&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=55928&amp;SiteID=1&amp;Random=1702284827663&amp;wd=1689"></script>    
+</script></p></div></div></div>
 <script>
 jQuery(document).ready(function(){
     jQuery.post("https://www.electricityforum.com/courses-mag.php",{},function(response){
