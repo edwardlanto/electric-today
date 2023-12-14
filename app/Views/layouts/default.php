@@ -19,6 +19,16 @@
             margin-left:7px;
         }
 
+        .td-scroll-up .fa-angle-up{
+            position: relative;
+            color: #ffffff;
+            font-size: 20px;
+            display: block;
+            text-align: center;
+            width: 38px;
+            top: 7px;
+        }
+
         .td-header-wrap .fa-magnifying-glass{
             color:#000;
         }
@@ -595,7 +605,7 @@
         <script type="text/javascript" src="https://www.electricity-today.com/wp-content/themes/Newspaper/js/custom_script_popup.js"></script>
     </head>
     <body class="home page-template-default page page-id-4333 wpb-js-composer js-comp-ver-4.11.2 vc_responsive td-animation-stack-type0 td-full-layout">
-        <div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
+        <div class="td-scroll-up"><i class="fa-solid fa-angle-up "></i></div>
         <div class="td-outer-wrap">
             <div class="td-transition-content-and-menu td-mobile-nav-wrap">
                 <div id="td-mobile-nav">
@@ -1154,9 +1164,8 @@
             <!-- <input type="tel" name="tel" id="tel" class="lbfield" value=""><br />-->
             <a class="close-reveal-modal" style="text-decoration:none;">×</a>
         </div>
-        <div class="td-main-content-wrap td-main-page-wrap">
             <?php $this->renderSection('content'); ?>
-        </div>
+
         <footer>
         </footer>
         <script type="text/javascript">

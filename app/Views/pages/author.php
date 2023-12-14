@@ -7,12 +7,12 @@
                 <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <a title="" class="entry-crumb" itemprop="url" href="https://www.electricity-today.com/"><span itemprop="title">Home</span></a>
                 </span>
-                <i class="td-icon-right td-bread-sep td-bred-no-url-last"></i>
+                <i class="fa-solid fa-angle-right"></i>
                 <span class="td-bred-no-url-last" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <meta itemprop="title" content="Authors" />
                     <meta itemprop="url" />Authors
                 </span>
-                <i class="td-icon-right td-bread-sep td-bred-no-url-last"></i>
+                <i class="fa-solid fa-angle-right"></i>
                 <span class="td-bred-no-url-last" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <meta itemprop="title" content=<?= 'Posts by' . $name ?> />
                     <meta itemprop="url" />Posts by <?= $name ?>
@@ -30,7 +30,10 @@
                     </div>
 
                     <div class="author-box-wrap td-author-page">
-                        <img
+                        <?php
+                            if ($avatar != NULL):
+                        ?>
+                         <img
                             alt=""
                             src="https://secure.gravatar.com/avatar/a53869c1da21e47872132ffd2503ee49?s=96&amp;d=mm&amp;r=g"
                             srcset="https://secure.gravatar.com/avatar/a53869c1da21e47872132ffd2503ee49?s=192&amp;d=mm&amp;r=g 2x"
@@ -38,6 +41,16 @@
                             height="96"
                             width="96"
                         />
+                        <?php else: ?>
+                            <img
+                            alt=""
+                            src=<?= $avatar ?>
+                            srcset="<?= $avatar ?> 2x"
+                            class="avatar avatar-96 photo"
+                            height="96"
+                            width="96"
+                            />
+                        <?php endif ?>
                         <div class="desc">
                             <div class="td-author-counters">
                                 <span class="td-author-post-count"> <?= count($posts) ?> POSTS </span>
