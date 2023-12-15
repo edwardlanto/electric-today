@@ -24,7 +24,7 @@ class AuthorController extends BaseController
             $data = array(
                 'name' => $author->author_name,
                 'slug' => $author->author_slug,
-                'avatar' => $author->avatar,
+                'avatar' => $author->author_avatar,
                 'posts' => $posts,
                 'total_comment_count' => $total_comment_count
             );

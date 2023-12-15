@@ -482,42 +482,10 @@ tdBlocksArray.push(block_td_uid_95_6576ce1a8f6a0);
         <?php
             if($i == 0 || $i == 1):
         ?>
-<div class="td-block-span6">
-        <div class="td_module_2 td_module_wrap td-animation-stack">
-            <div class="td-module-image">
-                <div class="td-module-thumb">
-                    <a href=<?= "https://www.electricity-today.com/uncategorized/" . $td_automation[$i]['slug'] ?> rel="bookmark" 
-                    title="<?= $td_automation[$i]['title'] ?>">
-                    <img width="324" height="160" class="entry-thumb td-animation-stack-type0-2" src=<?= $td_automation[$i]['image'] ?>  alt="" title=<?= $td_automation[$i]['image'] ?> ></a>
-                </div>
-            </div>
-            <h3 class="entry-title td-module-title"><a href=<?= "https://www.electricity-today.com/uncategorized/" . $td_automation[$i]['slug'] ?> rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring">Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring</a></h3>
-            <div class="td-module-meta-info">
-            <div class="td-post-author-name"><a href="https://www.electricity-today.com/author/chris-rutledge"><?= $td_automation[$i]['author_name'] ?></a></div>
-                <div class="td-module-comments">
-                    <a href=<?= "https://www.electricity-today.com/uncategorized/" . $td_automation[$i]['slug'] . "#"  . "respond" ?>><?= $td_automation[$i]['comment_count'] ?></a>
-                </div>
-            </div>
-            <div class="td-excerpt"><?= $td_automation[$i]['excerpt'] ?></div>
-        </div>
-    </div>
+        <?= view_cell('\App\Libraries\Post::renderPost', ['post' => $td_automation[$i], 'full' => true]) ?>
+
         <?php else: ?>
-            <div class="td-block-span6">
-            <div class="td_module_6 td_module_wrap td-animation-stack">
-                <div class="td-module-thumb">
-                    <a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained">
-                        <img width="100" height="70" class="entry-thumb td-animation-stack-type0-1" src=<?= $td_automation[$i]['image'] ?> alt="" title="Grounding Transformers Explained"></a>
-                </div>
-                <div class="item-details">
-                    <h3 class="entry-title td-module-title">
-                        <a href="https://www.electricity-today.com/electrical-transformers/grounding-transformers-explained" rel="bookmark" title="Grounding Transformers Explained">
-                            <?= $td_automation[$i]['title'] ?>
-                        </a>
-                    </h3>           
-                    <div class="td-module-meta-info"></div>
-                </div>
-            </div>
-	    </div> <!-- ./td-block-span6 -->
+            <?= view_cell('\App\Libraries\Post::renderPost', ['post' => $td_automation[$i], 'full' => false]) ?>
         <?php endif; ?>
 
         <?php

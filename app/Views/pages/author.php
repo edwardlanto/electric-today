@@ -31,7 +31,7 @@
 
                     <div class="author-box-wrap td-author-page">
                         <?php
-                            if ($avatar != NULL):
+                            if ($avatar == NULL):
                         ?>
                          <img
                             alt=""

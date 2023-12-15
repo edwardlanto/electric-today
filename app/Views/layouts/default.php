@@ -1164,8 +1164,8 @@
             <a class="close-reveal-modal" style="text-decoration:none;">×</a>
         </div>
             <?php $this->renderSection('content'); ?>
-
         <footer>
+        <?php echo $this->include('templates/footer.php'); ?>
         </footer>
         <script type="text/javascript">
             jQuery(document).ready(function () {
