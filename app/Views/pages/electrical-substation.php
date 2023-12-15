@@ -52,7 +52,7 @@
                                 <div class="td-post-author-name">By <a href=<?= (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/' . "author/" . $author_slug ?>><?= $author_name ?></a></div>
                                 <div class="td-post-comments">
                                     <a href=<?= "https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/case-study-rapid-changes-in-bushing-health#respond"?> class="box-flex box-items-center">
-                                    <i class="fa-solid fa-comment" style="margin-right:5px"></i><?= count($comments) ?></a>
+                                    <i class="fa-solid fa-comment" style="margin-right:5px"></i><span id="comment-count"><?= count($comments) ?></span></a>
                                 </div>
                                 <div class="td-post-views box-flex box-align-center"><i class="fa-solid fa-eye" style="margin-right:5px"></i><span class="td-nr-views-5895"><?= $view_count ?></span></div>
                             </div>
@@ -107,15 +107,15 @@
                                     height="236"
                                     class="entry-thumb td-animation-stack-type0-1"
                                     src=<?= $image ?>
-                                    alt="magazine_may_june_2023_article_1"
-                                    title="magazine_may_june_2023_article_1"
+                                    alt="<?= $title ?>"
+                                    title="<?= $title ?>"
                                 />
                             </a>
                         </div>
                         <?= $content ?>
                     </div>
 
-                    <footer>
+                    <div>
                         <div class="td-post-source-tags"></div>
 
                         <div class="td-post-sharing td-post-sharing-bottom td-with-like">
@@ -250,7 +250,7 @@
                         <span style="display: none;" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
                             <meta itemprop="url" content="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_1.jpg" /><meta itemprop="width" content="420" /><meta itemprop="height" content="236" />
                         </span>
-                    </footer>
+                    </div>
                 </article>
                 <!-- /.post -->
 
@@ -437,14 +437,15 @@
                             'content':  santizedContent
                         },
                         success: function (res) {
-                            const currentDate = new Date();
-                            const year = currentDate.getFullYear();
-                            const month = ('0' + (currentDate.getMonth() + 1)).slice(-2);
-                            const day = ('0' + currentDate.getDate()).slice(-2);
-                            const hours = ('0' + currentDate.getHours()).slice(-2);
-                            const minutes = ('0' + currentDate.getMinutes()).slice(-2);
-                            const seconds = ('0' + currentDate.getSeconds()).slice(-2);
-                            const dateTimeString = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+                            var currentDate = new Date();
+                            var year = currentDate.getFullYear();
+                            var month = ('0' + (currentDate.getMonth() + 1)).slice(-2);
+                            var day = ('0' + currentDate.getDate()).slice(-2);
+                            var hours = ('0' + currentDate.getHours()).slice(-2);
+                            var minutes = ('0' + currentDate.getMinutes()).slice(-2);
+                            var seconds = ('0' + currentDate.getSeconds()).slice(-2);
+                            var dateTimeString = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+                            jQuery('#comment-count').text(parseInt(jQuery('#comment-count').text()) + 1)
                             jQuery('#comment-container').removeAttr('hidden', true)
                             jQuery('#no-comment-container').attr('hidden', true)
                             jQuery('#comment-container').append(`<div style="margin-bottom:15px;" class="author-box-wrap">
@@ -452,6 +453,7 @@
                                 <small>${dateTimeString}</small>
                             </div>`)
                             jQuery('#comment-form')[0].reset();
+
                         },
                         fail: function(e) {
                             alert(e.message)

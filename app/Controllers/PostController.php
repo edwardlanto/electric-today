@@ -5,7 +5,7 @@ use App\Models\PostModel;
 use App\Models\CommentModel;
 use App\Models\TagModel;
 use CodeIgniter\Exceptions\PageNotFoundException;
-class ElectricSubstationController extends BaseController
+class PostController extends BaseController
     {
 
     public function __construct(){

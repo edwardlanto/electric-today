@@ -12,9 +12,6 @@ class CommentController extends BaseController
         $this->validation = \Config\Services::validation();
     }
 
-    protected $helpers = ['form'];
-
-
     public function create(){
         try{
             $rules = [
@@ -43,6 +40,11 @@ class CommentController extends BaseController
                 ];
                 return $this->response->setStatusCode(200)->setJSON($data);
             }
+            $data = [
+                'success' => 0,
+                'message' => $e->getMessage()
+            ];
+            return $this->response->setStatusCode(500)->setJSON($data);
         }catch(\Exception $e){
             $data = [
                 'success' => 0,

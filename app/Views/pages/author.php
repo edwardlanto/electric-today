@@ -71,33 +71,33 @@
                                 <div class="td-module-image">
                                     <div class="td-module-thumb">
                                         <a
-                                            href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance"
+                                            href=<?= "electrical-substation/high-voltage-test-equipment/" . $p['slug'] ?>
                                             rel="bookmark"
-                                            title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"
+                                            title=<?= $p['title']; ?>
                                         >
                                             <img
                                                 style="width:324px; height:160px"
                                                 class="entry-thumb td-animation-stack-type0-2"
                                                 src=<?= $p['image']; ?>
-                                                alt="magazine_may_june_2023_article_5"
-                                                title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"
+                                                alt=<?= $p['title']; ?>
+                                                title=<?= $p['title']; ?>
                                             />
                                         </a>
                                     </div>
                                 </div>
                                 <h3 class="entry-title td-module-title">
                                     <a
-                                        href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance"
+                                        href=<?= "electrical-substation/high-voltage-test-equipment/" . $p['slug'] ?>
                                         rel="bookmark"
-                                        title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"
+                                        title=<?= $p['title']; ?>
                                     >
                                         <?= $p['title'] ?>
                                     </a>
                                 </h3>
                                 <div class="td-module-meta-info">
-                                    <div class="td-post-author-name"><a href="https://www.electricity-today.com/author/jeff-donato">Jeff Donato</a></div>
+                                    <div class="td-post-author-name"><a href="/author/jeff-donato">Jeff Donato</a></div>
                                     <div class="td-module-comments">
-                                        <a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance#respond">0</a>
+                                        <a href="<?= "electrical-substation/high-voltage-test-equipment/" . $p['slug'] ?>#respond">0</a>
                                     </div>
                                 </div>
                             </div>
