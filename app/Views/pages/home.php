@@ -480,7 +480,7 @@ tdBlocksArray.push(block_td_uid_95_6576ce1a8f6a0);
         ?>
         <div class="td-block-span6">
         <?php
-            if($i == 0 || $i == 1):
+            if($i === 0 || $i === 1):
         ?>
         <?= view_cell('\App\Libraries\Post::renderPost', ['post' => $td_automation[$i], 'full' => true]) ?>
 

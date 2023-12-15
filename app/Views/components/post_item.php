@@ -8,11 +8,11 @@
                     <img width="324" height="160" class="entry-thumb td-animation-stack-type0-2" src=<?= $post['image'] ?>  alt="" title=<?= $post['image'] ?> ></a>
                 </div>
             </div>
-            <h3 class="entry-title td-module-title"><a href=<?= "electrical-substation/high-voltage-test-equipment/" . $post['slug'] ?> rel="bookmark" title="Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring">Hydrogen Monitoring in the Transformer Headspace Compared to Traditional In-Oil Monitoring</a></h3>
+            <h3 class="entry-title td-module-title"><a href=<?= "electrical-substation/high-voltage-test-equipment/" . $post['slug'] ?> rel="bookmark" title="<?= $post['title'] ?>"><?= $post['title'] ?></a></h3>
             <div class="td-module-meta-info">
             <div class="td-post-author-name"><a href="https://www.electricity-today.com/author/chris-rutledge"><?= $post['author_name'] ?></a></div>
                 <div class="td-module-comments">
-                    <a href=<?= "electrical-substation/high-voltage-test-equipment/" . $post['slug'] . "#"  . "respond" ?>><?= $post['comment_count'] ?></a>
+                    <a href=<?= "electrical-substation/high-voltage-test-equipment/" . $post['slug'] . "#"  . "respond" ?>><?= intval($post['comment_count']) ?></a>
                 </div>
             </div>
             <div class="td-excerpt"><?= $post['excerpt'] ?></div>
