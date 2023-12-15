@@ -437,14 +437,14 @@
                             'content':  santizedContent
                         },
                         success: function (res) {
-                            var currentDate = new Date();
-                            var year = currentDate.getFullYear();
-                            var month = ('0' + (currentDate.getMonth() + 1)).slice(-2);
-                            var day = ('0' + currentDate.getDate()).slice(-2);
-                            var hours = ('0' + currentDate.getHours()).slice(-2);
-                            var minutes = ('0' + currentDate.getMinutes()).slice(-2);
-                            var seconds = ('0' + currentDate.getSeconds()).slice(-2);
-                            var dateTimeString = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+                            const currentDate = new Date();
+                            const year = currentDate.getFullYear();
+                            const month = ('0' + (currentDate.getMonth() + 1)).slice(-2);
+                            const day = ('0' + currentDate.getDate()).slice(-2);
+                            const hours = ('0' + currentDate.getHours()).slice(-2);
+                            const minutes = ('0' + currentDate.getMinutes()).slice(-2);
+                            const seconds = ('0' + currentDate.getSeconds()).slice(-2);
+                            const dateTimeString = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
                             jQuery('#comment-count').text(parseInt(jQuery('#comment-count').text()) + 1)
                             jQuery('#comment-container').removeAttr('hidden', true)
                             jQuery('#no-comment-container').attr('hidden', true)
