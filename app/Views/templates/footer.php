@@ -21,44 +21,26 @@
             <div class="td_block_wrap td_block_2 td_block_widget td_uid_99_657b932e296c0_rand td_with_ajax_pagination td-pb-border-top">
                <h4 class="block-title"><span>T&amp;D Automation</span></h4>
                <div id="td_uid_99_657b932e296c0" class="td_block_inner">
-                  <div class="td-block-span12">
+                  <?php for($i = 0; $i < count($td_automation); $i++): ?>
+                     <div class="td-block-span12">
+                     <?php if($i == 0): ?>
                      <div class="td_module_2 td_module_wrap td-animation-stack">
-                        <div class="td-module-image">
-                           <div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance" rel="bookmark" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"><img width="324" height="160" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_5-324x160.jpg" alt="magazine_may_june_2023_article_5" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"></a></div>
-                        </div>
-                        <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance" rel="bookmark" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance">A Primer on the Codes and Standards Governing Battery Safety and...</a></h3>
-                        <div class="td-module-meta-info">
-                           <div class="td-post-author-name"><a href="https://www.electricity-today.com/author/jeff-donato">Jeff Donato</a></div>
-                           <div class="td-module-comments"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance#respond">0</a></div>
-                        </div>
-                        <div class="td-excerpt">
-                           Batteries have greatly influenced the utility industry, and the evolution of battery chemistries has revolutionized their applications. With the emergence of new technologies and...            
-                        </div>
-                     </div>
-                  </div>
-                  <!-- ./td-block-span12 -->
-                  <div class="td-block-span12">
-                     <div class="td_module_6 td_module_wrap td-animation-stack">
-                        <div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/substation-focused-on-environmental-design-2" rel="bookmark" title="Substation Focused on Environmental Design"><img width="100" height="70" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_4-100x70.jpg" alt="magazine_may_june_2023_article_4" title="Substation Focused on Environmental Design"></a></div>
-                        <div class="item-details">
-                           <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/substation-focused-on-environmental-design-2" rel="bookmark" title="Substation Focused on Environmental Design">Substation Focused on Environmental Design</a></h3>
+                           <div class="td-module-image">
+                              <div class="td-module-thumb"><a href="/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance" rel="bookmark" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance">
+                                 <img style="max-height:160px; max-width:324px" width="324" height="160" class="entry-thumb td-animation-stack-type0-2" src="<?= $td_automation[$i]['image'] ?>" alt="magazine_may_june_2023_article_5" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"></a></div>                            </div>
+                           <h3 class="entry-title td-module-title">
+                              <a href="<?= '/electrical-substation/high-voltage-test-equipment/' . $td_automation[$i]['slug'] ?>" 
+                              rel="bookmark" title="A Primer on the Codes and Standards Governing Battery Safety and Compliance"><?= $td_automation[$i]['title'] ?></a></h3>
+
                            <div class="td-module-meta-info">
-                           </div>
+                              <div class="td-post-author-name"><a href="/author/jeff-donato"><?= $td_automation[$i]['author_name'] ?></a></div>                                <div class="td-module-comments"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/a-primer-on-the-codes-and-standards-governing-battery-safety-and-compliance#respond"><?= $td_automation[$i]['comment_count'] ?></a></div>            </div>
+                           <div class="td-excerpt"><?= $td_automation[$i]['excerpt'] . '...' ?></div>
                         </div>
+                     <?php else: ?>
+                        <?= view_cell('\App\Libraries\Post::renderPost', ['post' => $td_automation[$i], 'full' => false]) ?>
+                     <?php endif; ?>
                      </div>
-                  </div>
-                  <!-- ./td-block-span12 -->
-                  <div class="td-block-span12">
-                     <div class="td_module_6 td_module_wrap td-animation-stack">
-                        <div class="td-module-thumb"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/the-fight-against-animal-caused-power-outages-3" rel="bookmark" title="The Fight Against Animal-Caused Power Outages"><img width="100" height="70" class="entry-thumb td-animation-stack-type0-2" src="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_3-100x70.jpg" alt="magazine_may_june_2023_article_3" title="The Fight Against Animal-Caused Power Outages"></a></div>
-                        <div class="item-details">
-                           <h3 class="entry-title td-module-title"><a href="https://www.electricity-today.com/electrical-substation/high-voltage-test-equipment/the-fight-against-animal-caused-power-outages-3" rel="bookmark" title="The Fight Against Animal-Caused Power Outages">The Fight Against Animal-Caused Power Outages</a></h3>
-                           <div class="td-module-meta-info">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- ./td-block-span12 -->
+                  <?php endfor; ?>
                </div>
             </div>
             <!-- ./block -->
@@ -173,7 +155,12 @@
             <div class="td-pb-span4">
                <aside class="footer-social-wrap td-social-style-2">
                   <div class="block-title"><span>FOLLOW US</span></div>
-                  <span class="td-social-icon-wrap"><a target="_blank" href="https://www.facebook.com/theelectricityforum/" title="Facebook"><i class="td-icon-font td-icon-facebook"></i></a></span><span class="td-social-icon-wrap"><a target="_blank" href="https://www.linkedin.com/company/electricityforum" title="Linkedin"><i class="td-icon-font td-icon-linkedin"></i></a></span><span class="td-social-icon-wrap"><a target="_blank" href="https://twitter.com/EFTICanada" title="Twitter"><i class="td-icon-font td-icon-twitter"></i></a></span>
+                  <span class="td-social-icon-wrap"><a target="_blank" href="https://www.facebook.com/theelectricityforum/" title="Facebook">
+                  <i class="fa-brands fa-facebook-f"></i></a></span><span class="td-social-icon-wrap">
+                        <a target="_blank" href="https://www.linkedin.com/company/electricityforum" title="Linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i></a></span><span class="td-social-icon-wrap">
+                              <a target="_blank" href="https://twitter.com/EFTICanada" title="Twitter">
+                              <i class="fa-brands fa-twitter"></i></a></span>
                </aside>
             </div>
          </div>

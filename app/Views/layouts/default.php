@@ -15,6 +15,19 @@
             Start Custom CSS
         */
 
+        footer i {
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 0.03);
+            color:#fff;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+        }
+
         .menu-main-nav-new-design-container .fa-caret-down{
             margin-left:7px;
         }
@@ -1165,7 +1178,7 @@
         </div>
             <?php $this->renderSection('content'); ?>
         <footer>
-        <?php echo $this->include('templates/footer.php'); ?>
+        <?= view_cell('\App\Libraries\Layout::renderFooter') ?>
         </footer>
         <script type="text/javascript">
             jQuery(document).ready(function () {

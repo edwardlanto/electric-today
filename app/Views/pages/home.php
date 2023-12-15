@@ -478,7 +478,7 @@ tdBlocksArray.push(block_td_uid_95_6576ce1a8f6a0);
         <?php
             for($i = 0; $i < count($td_automation); $i++):
         ?>
-
+        <div class="td-block-span6">
         <?php
             if($i == 0 || $i == 1):
         ?>
@@ -487,7 +487,7 @@ tdBlocksArray.push(block_td_uid_95_6576ce1a8f6a0);
         <?php else: ?>
             <?= view_cell('\App\Libraries\Post::renderPost', ['post' => $td_automation[$i], 'full' => false]) ?>
         <?php endif; ?>
-
+        </div>
         <?php
             endfor;
         ?>
