@@ -16,8 +16,8 @@ class PostController extends BaseController
         $post = $this->db->table('post')->where('post.slug', $slug)->join('author', 'post.author_id = author.id', 'LEFT')->select('author.id as author_id, author_name, author_slug, post.*')
         ->orderBy('created_at', 'DESC')->get()->getRow();
         if($post){
-            $tags = $this->db->table('tag')->select(['title', 'slug'])->get()->getResultArray();
-            $categories = $this->db->table('category')->select(['title', 'slug'])->get()->getResultArray();
+            $tags = $this->db->table('tag')->select(['title', 'slug'])->where('post_id', $post->id)->get()->getResultArray();
+            $categories = $this->db->table('category')->select(['title', 'slug'])->where('post_id', $post->id)->get()->getResultArray();
             $comments = new CommentModel;
             $comments = $comments->where('post_id', $post->id)->get()->getResultArray();
             $data = array(
@@ -37,6 +37,6 @@ class PostController extends BaseController
             throw PageNotFoundException::forPageNotFound('Oops count not find the post your looking for.');
         }
 
-        return view('pages/electrical-substation', $data);
+        return view('pages/post', $data);
     }
 }

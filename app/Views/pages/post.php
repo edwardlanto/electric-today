@@ -41,7 +41,7 @@
                         <ul class="td-category">
                             <?php
                                 foreach ($tags as $tag):
-                                    echo  '<li class="entry-category"><a href=' . 'https://www.electricity-today.com/category/' . $tag['slug'] . '>' . $tag['title'] . '</a></li>';
+                                    echo  '<li class="entry-category"><a href=' . '/category/' . $tag['slug'] . '>' . $tag['title'] . '</a></li>';
                                 endforeach
                             ?>
                         </ul>
@@ -101,12 +101,12 @@
 
                     <div class="td-post-content">
                         <div class="td-post-featured-image">
-                            <a href="https://www.electricity-today.com/wp-content/uploads/magazine_may_june_2023_article_1.jpg" data-caption="" class="td-modal-image">
+                            <a href="<?= $image ?>" data-caption="" class="td-modal-image">
                                 <img
                                     width="420"
                                     height="236"
                                     class="entry-thumb td-animation-stack-type0-1"
-                                    src=<?= $image ?>
+                                    src="<?= $image ?>"
                                     alt="<?= $title ?>"
                                     title="<?= $title ?>"
                                 />
