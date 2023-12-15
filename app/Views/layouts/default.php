@@ -15,6 +15,10 @@
             Start Custom CSS
         */
 
+        #mobile-hamburger{
+            margin-left: 18px;
+        }
+
         footer i {
             font-size: 14px;
             width: 40px;
@@ -87,6 +91,18 @@
         .slider-next{
             right:0;
         }
+        @media screen and (max-width: 767px) {
+            .td-header-wrap .fa-magnifying-glass{
+                color:#fff;
+            }
+            .header-search-wrap #td-header-search-button{
+                margin-top: 15px;
+                margin-right: 18px;
+                font-size:20px;
+            }
+
+        }
+
         /**
             End Custom CSS
         */

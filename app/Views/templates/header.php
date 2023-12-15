@@ -53,7 +53,7 @@
                     <div class="td-header-menu-wrap td-header-gradient">
                         <div class="td-container td-header-row td-header-main-menu">
                             <div id="td-header-menu">
-                                <div id="td-top-mobile-toggle"><a href="#"><i class="td-icon-font td-icon-mobile"></i></a></div>
+                                <div id="td-top-mobile-toggle"><a href="#"><i class="fa-solid fa-bars" id="mobile-hamburger"></i></a></div>
                                 <div class="td-main-menu-logo td-logo-sticky">
                                 <a class="td-mobile-logo td-sticky-mobile" href="https://www.electricity-today.com/">
                                 <img class="td-retina-data" data-retina="https://www.electricity-today.com/wp-content/uploads/et-online-magazine-300x74.jpg" src="https://www.electricity-today.com/wp-content/uploads/et-online-magazine-300x74.jpg" alt="Electricity Today" title="Electricity Today">
@@ -97,7 +97,7 @@
                                                                     <div class="td-module-image">
                                                                     <div class="td-module-thumb">
                                                                         <a href=<?="/electrical-substation/high-voltage-test-equipment/" . $t['slug']?> rel="bookmark" title="<?= $t['title'] ?>">
-                                                                    <img style="width:218px; height:150px" class="entry-thumb" src="<?= $t['image'] ?>" alt="magazine_may_june_2023_article_5" title="<?= $t['title'] ?>"></a></div>
+                                                                    <img style="width:218px; height:140px" class="entry-thumb" src="<?= $t['image'] ?>" alt="magazine_may_june_2023_article_5" title="<?= $t['title'] ?>"></a></div>
                                                                     </div>
                                                                     <div class="item-details">
                                                                     <h3 class="entry-title td-module-title">
